@@ -60,6 +60,7 @@ namespace BladeAndSourceryModloader
             this.gamePath.Name = "gamePath";
             this.gamePath.Size = new System.Drawing.Size(369, 26);
             this.gamePath.TabIndex = 1;
+            this.gamePath.TextChanged += new System.EventHandler(this.gamePath_TextChanged);
             this.gamePath.Leave += new System.EventHandler(this.gamePath_Leave);
             // 
             // pathLink

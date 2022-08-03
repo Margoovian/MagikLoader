@@ -8,7 +8,8 @@ namespace BladeAndSourceryModloader
 {
     public partial class settingsPage : Form
     {
-        public settingsPage()
+        Form1 super;
+        public settingsPage(Form1 main)
         {
             InitializeComponent();
 
@@ -17,6 +18,7 @@ namespace BladeAndSourceryModloader
             modPaths.VerticalScroll.Visible = false;
             modPaths.HorizontalScroll.Visible = false;
             modPaths.AutoScroll = true;
+            super = main;
         }
 
         private void settingsPage_Load(object sender, EventArgs e)
@@ -74,6 +76,9 @@ namespace BladeAndSourceryModloader
 
             Properties.Settings.Default.modFolderPaths = finalmodpaths;
             Properties.Settings.Default.Save();
+
+            if (Directory.Exists(gamePath.Text)) { super.build.Enabled = true; }
+            else { super.build.Enabled = false; }
         }
 
         private void gamePath_Leave(object sender, EventArgs e)
@@ -84,6 +89,12 @@ namespace BladeAndSourceryModloader
         private void saveButton_Click(object sender, EventArgs e)
         {
             this.save();
+        }
+
+        private void gamePath_TextChanged(object sender, EventArgs e)
+        {
+            if (Directory.Exists(gamePath.Text)) { super.build.Enabled = true; }
+            else { super.build.Enabled = false; }
         }
     }
 }

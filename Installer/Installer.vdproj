@@ -469,6 +469,17 @@
                         {
                         }
                     }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_DA23B280F2DC41B2A74FA783216B2356"
+                    {
+                    "Name" = "8:downloadedmods"
+                    "AlwaysCreate" = "11:TRUE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_05AED013DD814D04AAC22F3D07BBB22F"
+                        "Folders"
+                        {
+                        }
+                    }
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_E836424EBB2C41B582837D81145E600A"
                     {
                     "Name" = "8:staging"
@@ -476,6 +487,17 @@
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
                     "Property" = "8:_B8A256AE55704FBD9F880D30D0B91A21"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_E86462335F1142E2BA42775FBEE184B3"
+                    {
+                    "Name" = "8:modsettings"
+                    "AlwaysCreate" = "11:TRUE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_A4F20CDA4FA8436EB41E54DDCE9BABBD"
                         "Folders"
                         {
                         }

@@ -1,9 +1,0 @@
-{
-  "$type": "TOR.ProjectileData, TheOuterRim",
-  "id": "BlasterBoltPink",
-  "item": "BlasterBolt",
-  "colliderScale": 1.0,
-  "effectID": "Effect",
-  "boltHue": 0.83,
-  "useGravity": false
-}

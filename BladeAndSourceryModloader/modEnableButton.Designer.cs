@@ -78,8 +78,7 @@ namespace BladeAndSourceryModloader
         }
 
         #endregion
-
-        private System.Windows.Forms.Button modButton;
         private System.Windows.Forms.Button enabled;
+        public System.Windows.Forms.Button modButton;
     }
 }

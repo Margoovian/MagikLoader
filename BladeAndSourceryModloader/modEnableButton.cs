@@ -13,16 +13,21 @@ namespace BladeAndSourceryModloader
     public partial class modEnableButton : UserControl
     {
         public Boolean enabedState = false;
+        private Form1 super;
+        private Manifest manifest;
 
-        public modEnableButton()
+        public modEnableButton(Manifest m, Form1 main)
         {
             InitializeComponent();
-            
+            modButton.Text = m.Name;
+            manifest = m;
+            this.Size = new Size(348, 60);
+            this.super = main;
         }
 
         private void modButton_Click(object sender, EventArgs e)
         {
-
+            changeData();
         }
 
         private void enabled_Click(object sender, EventArgs e)
@@ -37,9 +42,13 @@ namespace BladeAndSourceryModloader
             enabedState = !enabedState;
         }
 
-        public void SetName(string ModName)
+        public void changeData()
         {
-            modButton.Text = ModName;
+            super.modName.Text = manifest.Name;
+            super.description.Text = manifest.Description;
+            super.author.Text = "By: " + manifest.Author;
+            super.gameVersion.Text = "Game Version: " + manifest.GameVersion;
+            super.modVersion.Text = manifest.ModVersion;
         }
     }
 }
