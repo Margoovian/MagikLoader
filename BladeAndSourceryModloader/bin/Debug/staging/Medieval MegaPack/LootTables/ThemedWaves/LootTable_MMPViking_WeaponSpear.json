@@ -1,0 +1,13 @@
+{
+  "$type": "ThunderRoad.LootTable, Assembly-CSharp",
+  "id": "MMPViking_WeaponSpear",
+  "saveFolder": "Bas",
+  "version": 1,
+  "drops": [
+    {
+      "referenceID": "MMPSpear3",
+      "reference": "Item",
+      "probabilityWeight": 1.0
+    }
+  ]
+}

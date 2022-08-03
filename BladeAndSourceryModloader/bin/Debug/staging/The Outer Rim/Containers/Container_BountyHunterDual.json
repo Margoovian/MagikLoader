@@ -1,0 +1,66 @@
+{
+  "$type": "ThunderRoad.ContainerData, ThunderRoad",
+  "id": "BountyHunterDual",
+  "version": 1,
+  "displayName": "",
+  "description": null,
+  "contents": [
+    {
+      "referenceID": "MiscHelmet",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "referenceID": "MiscHandL",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "referenceID": "MiscHandR",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "referenceID": "MiscChest",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "referenceID": "MiscLegs",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "referenceID": "MiscFeet",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "MercMelee",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "BackRight"
+      },
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "MercMelee",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "BackLeft"
+      },
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "MercMisc",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "HipsLeft"
+      },
+      "customDataList": []
+    }
+  ]
+}

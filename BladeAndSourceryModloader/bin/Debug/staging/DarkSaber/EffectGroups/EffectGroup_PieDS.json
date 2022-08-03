@@ -1,0 +1,10 @@
+{
+  "$type": "ThunderRoad.EffectGroupData, ThunderRoad",
+  "id": "PieDS",
+  "saveFolder": "bas",
+  "version": 0,
+  "groupId": "Collision",
+  "globalVolumeDb": 0.0,
+  "globalMinPitch": 1.0,
+  "globalMaxPitch": 1.0
+}

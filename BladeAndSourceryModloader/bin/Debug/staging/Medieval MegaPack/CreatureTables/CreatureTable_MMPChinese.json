@@ -1,0 +1,133 @@
+{
+  "$type": "ThunderRoad.CreatureTable, Assembly-CSharp",
+  "id": "MMPChinese",
+  "saveFolder": "Bas",
+  "version": 1,
+  "description": null,
+  "linkedToGenderRatio": false,
+  "minMaxDifficulty": {
+    "x": 0,
+    "y": 0
+  },
+  "drops": [
+    {
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "MMPChinese_Deer",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "MMPChinese_HookSwords",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "MMPChinese_ButterflySwords",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "MMPChinese_Tonfa",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "MMPChinese_Sai",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "MMPChinese_Escrima",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "MMPChinese1H",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        5,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

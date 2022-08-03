@@ -1,0 +1,114 @@
+﻿{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "BlasterPowerCell_Purple",
+  "version": 4,
+  "prefabAddress": "theouterrim_blasters.BlasterPowerCell",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "type": "Weapon",
+  "canBeStoredInPlayerInventory": true,
+  "slot": "Medium",
+  "overrideMassAndDrag": true,
+  "mass": 1.0,
+  "drag": 1.0,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": null,
+  "flyFromThrow": true,
+  "flyRotationSpeed": 3.0,
+  "flyThrowAngle": 145.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.0,
+  "dodgeBehaviour": "NotParrying",
+  "grippable": true,
+  "customSnaps": [],
+  "modules": [
+    {
+      "$type": "TOR.ItemModuleBlasterPowerCell, TheOuterRim",
+      "projectileID": "BlasterBoltPurple",
+      "audioSoundPath": "theouterrim_blasters.BlasterOverheat"
+    },
+    {
+      "$type": "ThunderRoad.ItemModuleAI, ThunderRoad",
+      "weaponClass": "Melee",
+      "weaponHandling": "OneHanded",
+      "parryIgnoreRotation": false,
+      "parryRotation": 90.0,
+      "parryDualRotation": 60.0,
+      "armResistanceMultiplier": 2.0,
+      "parryRevertAngleRange": {
+        "x": -80.0,
+        "y": -180.0
+      },
+      "parryDefaultPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "parryDefaultLeftRotation": {
+        "x": 25.0,
+        "y": -10.0,
+        "z": -65.0
+      },
+      "parryDefaultRightRotation": {
+        "x": 30.0,
+        "y": 5.0,
+        "z": 60.0
+      },
+      "allowDynamicHeight": false,
+      "dodgeBehaviour": "NotParrying",
+      "defenseHasPriority": false,
+      "attackIgnore": false,
+      "attackForceParryIgnoreRotation": false
+    }
+  ],
+  "colliderGroups": [],
+  "damagers": [
+    {
+      "transformName": "DamagerTip",
+      "damagerID": "DaggerPierce"
+    },
+    {
+      "transformName": "DamagerGrip",
+      "damagerID": "Handle1H"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "HandleGrip",
+      "interactableId": "ObjectHandleLight",
+      "overrideHandPose": true,
+      "handPoseId": "HandleBlasterPowerCell"
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [
+    {
+      "transformName": "Whoosh",
+      "effectId": "WhooshSwordShort",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 5.0,
+      "maxVelocity": 12.0
+    }
+  ],
+  "localizationId": "BlasterPowerCell_Purple",
+  "displayName": "Power Cell (Purple)",
+  "description": "The Blaster Power Cell is an experimental tool that is able to interface with any blaster and replenish the energy charge and blaster fluid.",
+  "author": "Kingo64",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 0,
+  "levelRequired": 0,
+  "isStackable": false,
+  "category": "Blasters",
+  "iconEffectId": null,
+  "iconAddress": "theouterrim_blasters.BlasterPowerCell_Purple.Icon"
+}

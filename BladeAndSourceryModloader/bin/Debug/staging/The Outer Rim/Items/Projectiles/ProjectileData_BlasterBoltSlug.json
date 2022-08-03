@@ -1,0 +1,12 @@
+{
+  "$type": "TOR.ProjectileData, TheOuterRim",
+  "id": "BlasterBoltSlug",
+  "item": "BlasterBolt",
+  "damagerID": "BlasterBoltSlug",
+  "colliderScale": 1.0,
+  "effectID": "Effect",
+  "boltHue": 0.07,
+  "ricochetLimit": 2,
+  "ricochetMaxAngle": 12,
+  "useGravity": true
+}

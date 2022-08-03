@@ -1,0 +1,23 @@
+{
+  "$type": "ThunderRoad.LootTable, Assembly-CSharp",
+  "id": "MMPSamurai_Offhand",
+  "saveFolder": "Bas",
+  "version": 1,
+  "drops": [
+    {
+      "referenceID": "MMPHachiwara",
+      "reference": "Item",
+      "probabilityWeight": 1.0
+    },
+    {
+      "referenceID": "MMPWakizashi",
+      "reference": "Item",
+      "probabilityWeight": 1.0
+    },
+    {
+      "referenceID": "MMPTanto",
+      "reference": "Item",
+      "probabilityWeight": 1.0
+    }
+  ]
+}

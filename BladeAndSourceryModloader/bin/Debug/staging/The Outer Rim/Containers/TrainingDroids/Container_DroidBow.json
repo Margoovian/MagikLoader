@@ -1,0 +1,41 @@
+﻿{
+  "$type": "ThunderRoad.ContainerData, ThunderRoad",
+  "id": "DroidBow",
+  "version": 1,
+  "displayName": "",
+  "prefabName": "",
+  "contents": [
+    {
+      "reference": "Item",
+      "referenceID": "ApparelBanditBoots",
+      "customDataList": []
+    },
+    {
+      "reference": "Item",
+      "referenceID": "DaggerCommon",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "HipsRight"
+      },
+      "customValues": []
+    },
+    {
+      "reference": "Item",
+      "referenceID": "BowCommon",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "BackRight"
+      },
+      "customValues": []
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Quiver",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "BackLeft"
+      },
+      "customValues": []
+    }
+  ]
+}

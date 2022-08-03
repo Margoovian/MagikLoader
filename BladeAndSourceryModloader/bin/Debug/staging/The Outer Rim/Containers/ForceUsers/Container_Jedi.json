@@ -1,0 +1,58 @@
+﻿{
+  "$type": "ThunderRoad.ContainerData, ThunderRoad",
+  "id": "Jedi",
+  "version": 1,
+  "displayName": "",
+  "prefabName": "",
+  "contents": [
+    {
+      "reference": "Table",
+      "referenceID": "JediFeet",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "JediLegs",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "JediTorso",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "JediHandL",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "JediHandR",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "JediHead",
+      "customDataList": []
+    },
+    {
+      "referenceID": "Hairs",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "referenceID": "Beards",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "JediSabers",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "BackRight"
+      },
+      "customDataList": []
+    }
+  ]
+}

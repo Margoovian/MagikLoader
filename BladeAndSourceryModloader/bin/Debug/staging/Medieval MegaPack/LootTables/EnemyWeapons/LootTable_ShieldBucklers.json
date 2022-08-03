@@ -1,0 +1,36 @@
+{
+  "$type": "ThunderRoad.LootTable, Assembly-CSharp",
+  "id": "ShieldBucklers",
+  "saveFolder": "Bas",
+  "version": 1,
+  "drops": [
+    {
+      "referenceID": "MMPTalhofferBuckler",
+      "reference": "Item",
+      "probabilityWeight": 3.0
+    },
+    {
+      "referenceID": "MMPShieldBuckler",
+      "reference": "Item",
+      "probabilityWeight": 3.0
+    },
+    {
+      "referenceID": "MMPShieldFullMetal",
+      "reference": "Item",
+      "probabilityWeight": 3.0
+    },
+    {
+      "referenceID": "MMPShieldMediumLeft",
+      "reference": "Item",
+      "probabilityWeight": 3.0
+    },
+    {
+      "referenceID": "MMPShieldWoodenHeaterLeft",
+      "reference": "Item",
+      "probabilityWeight": 3.0
+    },
+    { "reference": 0,
+      "referenceID": "MMPDaggerAndBuckler",
+      "probabilityWeight": 3.0}
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "$type": "ThunderRoad.DamageModifierData, ThunderRoad",
+  "id": "Blaster",
+  "version": 1,
+  "damageType": "Energy",
+  "collisions": [
+    {
+      "sourceMaterialIds": [],
+      "targetMaterialIds": [
+        "Leather"
+      ],
+      "modifiers": [
+        {
+          "tierFilter": 0,
+          "imbuesFilterLogic": "AnyExcept",
+          "imbuesFilter": [],
+	      "minVelocity": 0.0,
+	      "damageMultiplier": 0.95,
+	      "allowKnockout": false,
+	      "allowPenetration": true,
+	      "pressureAllowed": false,
+	      "knockoutAllowedMinVelocity": "Infinity",
+	      "knockoutForcedMinVelocity": "Infinity",
+	      "knockoutThrowAllowedMinVelocity": "Infinity",
+	      "knockoutThrowForcedMinVelocity": "Infinity",
+	      "knockoutDurationMultiplier": 1.0,
+	      "penetrationMinVelocity": 1.0,
+	      "penetrationDamperMultiplier": 1.0,
+	      "penetrationVelocityMaxDepth": false,
+	      "penetrationVelocityMaxDepthCurve": {
+	        "keys": [],
+	        "length": 0,
+	        "preWrapMode": "ClampForever",
+	        "postWrapMode": "ClampForever"
+	      },
+	      "pressureForceMultiplier": 1.0
+        }
+      ]
+    },
+    {
+      "sourceMaterialIds": [],
+      "targetMaterialIds": [
+        "Chainmail"
+      ],
+      "modifiers": [
+        {
+          "tierFilter": 0,
+          "imbuesFilterLogic": "AnyExcept",
+          "imbuesFilter": [],
+	      "minVelocity": 0.0,
+	      "damageMultiplier": 0.9,
+	      "allowKnockout": false,
+	      "allowPenetration": true,
+	      "pressureAllowed": false,
+	      "knockoutAllowedMinVelocity": "Infinity",
+	      "knockoutForcedMinVelocity": "Infinity",
+	      "knockoutThrowAllowedMinVelocity": "Infinity",
+	      "knockoutThrowForcedMinVelocity": "Infinity",
+	      "knockoutDurationMultiplier": 1.0,
+	      "penetrationMinVelocity": 1.0,
+	      "penetrationDamperMultiplier": 1.0,
+	      "penetrationVelocityMaxDepth": false,
+	      "penetrationVelocityMaxDepthCurve": {
+	        "keys": [],
+	        "length": 0,
+	        "preWrapMode": "ClampForever",
+	        "postWrapMode": "ClampForever"
+	      },
+	      "pressureForceMultiplier": 1.0
+        }
+      ]
+    },
+    {
+      "sourceMaterialIds": [],
+      "targetMaterialIds": [
+        "Plate"
+      ],
+      "modifiers": [
+        {
+          "tierFilter": 0,
+          "imbuesFilterLogic": "AnyExcept",
+          "imbuesFilter": [],
+	      "minVelocity": 0.0,
+	      "damageMultiplier": 0.85,
+	      "allowKnockout": false,
+	      "allowPenetration": true,
+	      "pressureAllowed": false,
+	      "knockoutAllowedMinVelocity": "Infinity",
+	      "knockoutForcedMinVelocity": "Infinity",
+	      "knockoutThrowAllowedMinVelocity": "Infinity",
+	      "knockoutThrowForcedMinVelocity": "Infinity",
+	      "knockoutDurationMultiplier": 1.0,
+	      "penetrationMinVelocity": 1.0,
+	      "penetrationDamperMultiplier": 1.0,
+	      "penetrationVelocityMaxDepth": false,
+	      "penetrationVelocityMaxDepthCurve": {
+	        "keys": [],
+	        "length": 0,
+	        "preWrapMode": "ClampForever",
+	        "postWrapMode": "ClampForever"
+	      },
+	      "pressureForceMultiplier": 1.0
+        }
+      ]
+    },
+    {
+      "sourceMaterialIds": [],
+      "targetMaterialIds": [],
+      "modifiers": [
+        {
+          "tierFilter": 0,
+          "imbuesFilterLogic": "AnyExcept",
+          "imbuesFilter": [],
+	      "minVelocity": 0.0,
+	      "damageMultiplier": 1.0,
+	      "allowKnockout": false,
+	      "allowPenetration": true,
+	      "pressureAllowed": false,
+	      "knockoutAllowedMinVelocity": "Infinity",
+	      "knockoutForcedMinVelocity": "Infinity",
+	      "knockoutThrowAllowedMinVelocity": "Infinity",
+	      "knockoutThrowForcedMinVelocity": "Infinity",
+	      "knockoutDurationMultiplier": 1.0,
+	      "pushLevels": [
+            {
+              "hitVelocity": 3.0,
+              "throwVelocity": 3.0
+            }
+          ],
+	      "penetrationMinVelocity": 1.0,
+	      "penetrationDamperMultiplier": 1.0,
+	      "penetrationVelocityMaxDepth": false,
+	      "penetrationVelocityMaxDepthCurve": {
+	        "keys": [],
+	        "length": 0,
+	        "preWrapMode": "ClampForever",
+	        "postWrapMode": "ClampForever"
+	      },
+	      "pressureForceMultiplier": 1.0
+        }
+      ]
+    }
+  ]
+}

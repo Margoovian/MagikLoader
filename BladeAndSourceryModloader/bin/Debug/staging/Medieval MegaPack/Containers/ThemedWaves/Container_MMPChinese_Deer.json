@@ -1,0 +1,57 @@
+{
+  "$type": "ThunderRoad.ContainerData, Assembly-CSharp",
+  "id": "MMPChinese_Deer",
+  "saveFolder": "Bas",
+  "version": 1,
+  "displayName": "",
+  "description": null,
+  "contents": [
+    {
+      "referenceID": "Shirts",
+      "reference": "Table",
+      "customValues": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "ApparelBanditPants",
+      "reference": "Item",
+      "customValues": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "ApparelBanditBoots",
+      "reference": "Item",
+      "customValues": []
+    },
+    {
+      "referenceID": "MMPDeerHornKnife",
+      "reference": "Item",
+      "customValues": [
+        {
+          "id": "Holder",
+          "value": "BackRight"
+        }
+      ]
+    },
+    {
+      "referenceID": "MMPDeerHornKnife",
+      "reference": "Item",
+      "customValues": [
+        {
+          "id": "Holder",
+          "value": "BackLeft"
+        }
+      ]
+    },
+    {
+      "referenceID": "Hairs",
+      "reference": "Table",
+      "customValues": []
+    },
+    {
+      "referenceID": "Beards",
+      "reference": "Table",
+      "customValues": []
+    }
+  ]
+}

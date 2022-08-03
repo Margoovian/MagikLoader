@@ -25,7 +25,7 @@ namespace BladeAndSourceryModloader.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Testing")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string gamePath {
             get {
                 return ((string)(this["gamePath"]));
@@ -37,7 +37,7 @@ namespace BladeAndSourceryModloader.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\"Test\"\"Test2\"\"Test3\"")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string modFolderPaths {
             get {
                 return ((string)(this["modFolderPaths"]));

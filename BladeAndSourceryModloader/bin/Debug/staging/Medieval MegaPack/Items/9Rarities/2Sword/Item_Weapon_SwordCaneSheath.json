@@ -1,0 +1,68 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "MMPSwordCaneSheath",
+  "saveFolder": "Bas",
+  "version": 4,
+  "prefabAddress": "mmp.SwordCaneSheath",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "allowDecals": false,
+  "type": "Weapon",
+  "slot": "Medium",
+  "mass": 1.0,
+  "drag": 1.0,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": "Bas.AudioGroup.Snap.Other",
+  "flyFromThrow": false,
+  "flyRotationSpeed": 2.0,
+  "flyThrowAngle": 60.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": true,  "grabAndGripClimb": false,  "playerGrabAndGripChangeLayer": true,
+  "customSnaps": [],
+  "modules": [],
+  "colliderGroups": [
+    {
+      "transformName": "Handle",
+      "colliderGroupId": "BladeMace"
+    }
+  ],
+  "damagers": [
+    {
+      "transformName": "Blunt",
+      "damagerID": "MMPBluntHandle"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "Handle",
+      "interactableId": "ObjectHandleLight",
+      "overrideHandPose": false,
+      "handPoseId": "HandleLarge"
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [],
+  "localizationId": "MMPSwordCaneSheath",
+  "displayName": "Sword Cane",
+  "description": "A classy, but deadly hidden sword disguised as a humble walking stick.",
+  "author": "Sushin",
+  "price": 0.0,
+  "purchasable": false,
+  "tier": 0,
+  "levelRequired": 0,
+  "isStackable": false,
+  "categoryPath": [
+    "Rarity"
+  ],
+  "iconEffectId": null,
+  "iconAddress": "mmp.SwordCane.Icon"
+}

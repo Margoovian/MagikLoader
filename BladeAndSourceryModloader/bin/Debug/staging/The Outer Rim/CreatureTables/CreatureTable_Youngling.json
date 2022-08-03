@@ -1,0 +1,43 @@
+{
+  "$type": "ThunderRoad.CreatureTable, ThunderRoad",
+  "id": "Youngling",
+  "version": 1,
+  "description": null,
+  "linkedToGenderRatio": true,
+  "drops": [
+    {
+      "reference": "Creature",
+      "referenceID": "YounglingMale",
+      "overrideFaction": false,
+      "factionID": 2,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        50,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "reference": "Creature",
+      "referenceID": "YounglingFemale",
+      "overrideFaction": false,
+      "factionID": 2,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        50,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

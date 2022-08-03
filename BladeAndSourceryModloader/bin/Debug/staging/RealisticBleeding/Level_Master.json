@@ -1,0 +1,16 @@
+{
+  "$type": "ThunderRoad.LevelData, ThunderRoad",
+  "id": "Master",
+  "saveFolder": "Bas",
+  "version": 3,
+  "modes": [
+    {
+      "name": "Default",
+      "modules": [
+		{
+			"$type": "RealisticBleeding.LevelModule, RealisticBleeding"
+		}
+	  ]
+    }
+  ]
+}

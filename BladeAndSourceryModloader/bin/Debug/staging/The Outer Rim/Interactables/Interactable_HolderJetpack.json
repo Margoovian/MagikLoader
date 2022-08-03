@@ -1,0 +1,33 @@
+{
+  "$type": "ThunderRoad.HolderData, ThunderRoad",
+  "id": "HolderJetpack",
+  "version": 3,
+  "spawnItemID": null,
+  "spawnQuantity": 0,
+  "maxQuantity": 2,
+  "targetAnchor": null,
+  "forceAllowTouchOnPlayer": false,
+  "highlighterPlayerView": false,
+  "tagFilter": "AnyExcept",
+  "slots": [
+    "TOR_Jetpack"
+  ],
+  "locked": false,
+  "warnIfNotAllowed": false,
+  "warnIfInUse": false,
+  "warnIfLocked": false,
+  "grabFromHandle": false,
+  "playerGrabFromHandle": false,
+  "allowTeleGrab": false,
+  "hideFromFpv": true,
+  "grabTeleport": "Enabled",
+  "disableObjectProximityHighlighter": false,
+  "delegateToParentHolder": true,
+  "cleanItemsDuration": 60.0,
+  "cleanItemsStep": 10.0,
+  "audioContainerAddress": "Bas.AudioGroup.Snap.Default",
+  "disableTouch": false,
+  "highlighterViewHandFreeOnly": false,
+  "highlightDefaultTitle": "Jetpack Holster",
+  "highlightDefaultDesignation": ""
+}

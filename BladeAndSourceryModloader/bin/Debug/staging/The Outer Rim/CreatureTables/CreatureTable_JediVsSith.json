@@ -1,0 +1,43 @@
+{
+  "$type": "ThunderRoad.CreatureTable, ThunderRoad",
+  "id": "JediVsSith",
+  "version": 1,
+  "description": null,
+  "linkedToGenderRatio": false,
+  "drops": [
+    {
+      "reference": "Table",
+      "referenceID": "Jedi",
+      "overrideFaction": false,
+      "factionID": 4,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Sith",
+      "overrideFaction": false,
+      "factionID": 5,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

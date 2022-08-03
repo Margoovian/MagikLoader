@@ -1,0 +1,14 @@
+﻿{
+  "$type": "ThunderRoad.ContainerData, ThunderRoad",
+  "id": "DroidFixSkin",
+  "version": 1,
+  "displayName": "",
+  "prefabName": "",
+  "contents": [
+    {
+      "reference": "Item",
+      "referenceID": "ApparelGladiatorBoots",
+      "customDataList": []
+    }
+  ]
+}

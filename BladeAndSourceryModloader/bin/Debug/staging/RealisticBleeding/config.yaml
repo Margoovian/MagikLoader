@@ -1,0 +1,14 @@
+# This is the max number of blood drips simulated per frame.
+# Smaller number means better performance, but the quality of the flow simulation will suffer.
+MaxActiveBloodDrips: 24
+
+# Features
+BleedingFromWoundsEnabled: true
+NoseBleedsEnabled: true
+MouthBleedsEnabled: true
+
+# Multipliers
+BloodAmountMultiplier: 1
+BleedDurationMultiplier: 1
+BloodStreakWidthMultiplier: 1
+BloodSurfaceFrictionMultiplier: 1

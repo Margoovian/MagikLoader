@@ -1,0 +1,69 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "FisherMiniCannonBall",
+  "saveFolder": "Bas",
+  "version": 4,
+  "prefabAddress": "Fisher.ElementalFirearms.MiniCannonBall",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "type": "Weapon",
+  "slot": "Small",
+  "mass": 1.5,
+  "drag": 0.01,
+  "angularDrag": 0.0,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": null,
+  "flyFromThrow": true,
+  "flyRotationSpeed": 0.0,
+  "flyThrowAngle": 0.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": false,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": true,
+  "customSnaps": [],
+  "modules": [
+    {
+      "$type": "SimpleBallistics.ProjectileModule, SimpleBallistics",
+      "lifetime": 6.0,
+      "allowFlyTime": true,
+      "flyingAcceleration": 1.25
+    }
+  ],
+  "colliderGroups": [
+    {
+      "transformName": "Blades",
+      "colliderGroupId": "BladeDagger",
+      "$type": "ThunderRoad.ItemData+ColliderGroup, ThunderRoad"
+    }
+  ],
+  "damagers": [
+    {
+      "transformName": "Pierce",
+      "damagerID": "FisherBulletPierce",
+      "$type": "ThunderRoad.ItemData+Damager, ThunderRoad"
+    }
+  ],
+  "Interactables": [],
+  "effectHinges": [],
+  "whooshs": [],
+  "localizationId": "FisherMiniCannonBall",
+  "displayName": "Elemental Flintlock Bullet",
+  "description": "A large Elemental Bullet that can be imbued.",
+  "author": "Fisher",
+  "price": 0.0,
+  "purchasable": false,
+  "tier": 4,
+  "levelRequired": 0,
+  "isStackable": false,
+  "category": "Firearms",
+  "iconEffectId": null,
+  "iconAddress": "Fisher.ElementalFirearms.MiniCannonBall.Icon",
+  "grabAndGripClimb": false,
+  "playerGrabAndGripChangeLayer": true
+}

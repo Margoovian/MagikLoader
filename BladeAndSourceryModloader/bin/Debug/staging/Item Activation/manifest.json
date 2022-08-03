@@ -1,0 +1,7 @@
+﻿{
+    "Name": "Item Activation",
+	"Description": "Allows some other mods to function",
+	"Author": "Piepop101",
+	"ModVersion": "1.0",
+    "GameVersion": "0.11.0.0"
+}

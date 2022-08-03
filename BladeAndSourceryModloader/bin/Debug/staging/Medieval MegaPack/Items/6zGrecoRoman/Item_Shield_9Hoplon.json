@@ -1,0 +1,126 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "MMPHoplon",
+  "saveFolder": "Bas",
+  "version": 4,
+  "prefabAddress": "mmp.Hoplon",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "allowDecals": true,
+  "type": "Shield",
+  "slot": "Medium",
+  "mass": 2.0,
+  "drag": 0.4,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": null,
+  "flyFromThrow": false,
+  "flyRotationSpeed": 3.0,
+  "flyThrowAngle": 0.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": false,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": true,  "grabAndGripClimb": false,  "playerGrabAndGripChangeLayer": true,
+  "customSnaps": [
+    {
+      "holderName": "HipsRight",
+      "localPosition": {
+        "x": 0.0,
+        "y": 0.03,
+        "z": 0.0
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 180.0
+      }
+    }
+  ],
+  "modules": [
+    {
+      "$type": "ThunderRoad.ItemModuleAI, Assembly-CSharp",
+      "weaponClass": "Shield",
+      "weaponHandling": "OneHanded",
+      "parryIgnoreRotation": true,
+      "parryRotation": 0.0,
+      "parryDualRotation": 60.0,
+      "armResistanceMultiplier": 3.0,
+      "parryRevertAngleRange": {
+        "x": -80.0,
+        "y": -180.0
+      },
+      "parryDefaultPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "parryDefaultLeftRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "parryDefaultRightRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "allowDynamicHeight": false,
+      "dodgeBehaviour": "LowOnly",
+      "defenseHasPriority": true,
+      "attackIgnore": true,
+      "attackForceParryIgnoreRotation": false
+    }
+  ],
+  "colliderGroups": [
+    {
+      "transformName": "Wood",
+      "colliderGroupId": "ShieldWood"
+    }
+  ],
+  "damagers": [
+    {
+      "transformName": "Blunt",
+      "damagerID": "MMPBluntShield"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "Handle",
+      "interactableId": "ObjectHandleShield",
+      "overrideHandPose": false,
+      "handPoseId": "HandleShieldStrap"
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [
+    {
+      "transformName": "Whoosh",
+      "effectId": "WhooshPropLight",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 5.0,
+      "maxVelocity": 12.0,
+      "dampening": 0.1
+    }
+  ],
+  "localizationId": "MMPHoplon",
+  "displayName": "Hoplon",
+  "description": "A heavy wooden shield used by the Hoplite soldiers of ancient Greece.",
+  "author": "Sushin",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 0,
+  "levelRequired": 0,
+  "isStackable": false,
+  "categoryPath": [
+    "GrecoRoman"
+  ],
+  "iconEffectId": null,
+  "iconAddress": "mmp.Hoplon.Icon"
+}

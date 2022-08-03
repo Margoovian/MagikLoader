@@ -1,0 +1,246 @@
+{
+  "$type": "ThunderRoad.EffectData, Assembly-CSharp",
+  "id": "PieDSDecal",
+  "version": 0,
+  "groupId": "Collision",
+  "volumeDb": 0.0,
+  "modules": [
+    {
+      "$type": "ThunderRoad.EffectModuleDecal, Assembly-CSharp",
+      "materialAddress": "Bas.Decal.FireSlash",
+      "baseLifeTime": 60.0,
+      "emissionLifeTime": 10.0,
+      "fadeRefreshSpeed": 0.1,
+      "priority": 0,
+      "allowRagdollPart": false,
+      "size": {
+        "x": 0.2,
+        "y": 0.2,
+        "z": 0.2
+      },
+      "sizeRandomRange": 0.0,
+      "sizeCurve": null,
+      "linkBaseColor": "Main",
+      "linkEmissionColor": "Secondary",
+      "mainColorStart": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "mainColorEnd": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "secondaryColorStart": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "secondaryColorEnd": {
+        "r": 4.237095,
+        "g": 1.90780187,
+        "b": 0.820798457,
+        "a": 1.0
+      },
+      "mainNoHdrColorStart": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "mainNoHdrColorEnd": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "secondaryNoHdrColorStart": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "secondaryNoHdrColorEnd": {
+        "r": 4.237095,
+        "g": 1.90780187,
+        "b": 0.820798457,
+        "a": 1.0
+      },
+      "step": "Start",
+      "stepCustomId": null,
+      "plateformFilter": "Windows, Android",
+      "isGore": false,
+      "damagerStateFilter": "Active",
+      "damageTypeFilter": "Slash",
+      "penetrationFilter": "None, Pressure, Hit",
+      "imbuesFilterLogic": "AnyExcept",
+      "imbuesFilter": [],
+      "colliderGroupFilterLogic": "AnyExcept",
+      "colliderGroupsFilter": [],
+      "damagersFilterLogic": "AnyExcept",
+      "damagersFilter": []
+    },
+    {
+      "$type": "ThunderRoad.EffectModuleDecal, Assembly-CSharp",
+      "materialAddress": "Bas.Decal.FirePierce",
+      "baseLifeTime": 60.0,
+      "emissionLifeTime": 10.0,
+      "fadeRefreshSpeed": 0.1,
+      "priority": 0,
+      "allowRagdollPart": false,
+      "size": {
+        "x": 0.2,
+        "y": 0.2,
+        "z": 0.2
+      },
+      "sizeRandomRange": 0.0,
+      "sizeCurve": null,
+      "linkBaseColor": "Main",
+      "linkEmissionColor": "Secondary",
+      "mainColorStart": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "mainColorEnd": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "secondaryColorStart": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "secondaryColorEnd": {
+        "r": 4.237095,
+        "g": 1.90780187,
+        "b": 0.820798457,
+        "a": 1.0
+      },
+      "mainNoHdrColorStart": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "mainNoHdrColorEnd": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "secondaryNoHdrColorStart": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "secondaryNoHdrColorEnd": {
+        "r": 4.237095,
+        "g": 1.90780187,
+        "b": 0.820798457,
+        "a": 1.0
+      },
+      "step": "Start",
+      "stepCustomId": null,
+      "plateformFilter": "Windows, Android",
+      "isGore": false,
+      "damagerStateFilter": "Inactive, Active",
+      "damageTypeFilter": "Pierce",
+      "penetrationFilter": "Pressure, Hit",
+      "imbuesFilterLogic": "AnyExcept",
+      "imbuesFilter": [],
+      "colliderGroupFilterLogic": "AnyExcept",
+      "colliderGroupsFilter": [],
+      "damagersFilterLogic": "AnyExcept",
+      "damagersFilter": []
+    },
+    {
+      "$type": "ThunderRoad.EffectModuleDecal, Assembly-CSharp",
+      "materialAddress": "Bas.Decal.FirePierce",
+      "baseLifeTime": 60.0,
+      "emissionLifeTime": 10.0,
+      "fadeRefreshSpeed": 0.1,
+      "priority": 0,
+      "allowRagdollPart": false,
+      "size": {
+        "x": 0.2,
+        "y": 0.2,
+        "z": 0.2
+      },
+      "sizeRandomRange": 0.0,
+      "sizeCurve": null,
+      "linkBaseColor": "Main",
+      "linkEmissionColor": "Secondary",
+      "mainColorStart": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "mainColorEnd": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "secondaryColorStart": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "secondaryColorEnd": {
+        "r": 4.237095,
+        "g": 1.90780187,
+        "b": 0.820798457,
+        "a": 1.0
+      },
+      "mainNoHdrColorStart": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "mainNoHdrColorEnd": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "secondaryNoHdrColorStart": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "secondaryNoHdrColorEnd": {
+        "r": 4.237095,
+        "g": 1.90780187,
+        "b": 0.820798457,
+        "a": 1.0
+      },
+      "step": "Start",
+      "stepCustomId": null,
+      "plateformFilter": "Windows, Android",
+      "isGore": false,
+      "damagerStateFilter": "Inactive, Active",
+      "damageTypeFilter": "Blunt",
+      "penetrationFilter": "None",
+      "imbuesFilterLogic": "AnyExcept",
+      "imbuesFilter": [],
+      "colliderGroupFilterLogic": "AnyExcept",
+      "colliderGroupsFilter": [],
+      "damagersFilterLogic": "AnyExcept",
+      "damagersFilter": []
+    }
+  ]
+}

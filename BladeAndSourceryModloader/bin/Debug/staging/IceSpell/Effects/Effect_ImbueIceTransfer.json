@@ -1,0 +1,76 @@
+{
+  "$type": "ThunderRoad.EffectData, Assembly-CSharp",
+  "id": "ImbueIceTransfer",
+  "version": 0,
+  "category": "Spell/Ice",
+  "globalVolume": 1.0,
+  "globalMinPitch": 1.0,
+  "globalMaxPitch": 1.0,
+  "modules": [
+    {
+      "$type": "ThunderRoad.EffectModuleVfx, Assembly-CSharp",
+      "vfxPath": "Bas.Vfx.Misc.ImbueTransfer",
+      "intensityCurve": null,
+      "lifeTime": 5.0,
+      "useSecondaryRenderer": false,
+      "mainGradient": {
+        "colorKeys": [
+          {
+            "color": {
+              "a": 1.0,
+              "b": 2.63901567,
+              "g": 1.19581759,
+              "r": 0.0
+            },
+            "time": 0.0
+          },
+          {
+            "color": {
+              "a": 1.0,
+              "b": 5.992157,
+              "g": 0.784313738,
+              "r": 0.345098048
+            },
+            "time": 1.0
+          }
+        ],
+        "alphaKeys": [
+          {
+            "alpha": 1.0,
+            "time": 0.0
+          },
+          {
+            "alpha": 1.0,
+            "time": 0.7000076
+          },
+          {
+            "alpha": 0.0,
+            "time": 1.0
+          }
+        ],
+        "mode": 0
+      },
+      "secondaryGradient": null,
+      "localScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "useScaleCurve": false,
+      "scaleCurve": null,
+      "usePointCache": true,
+      "pointCacheSkinnedMeshUpdate": false,
+      "pointCacheMapSize": 512,
+      "pointCachePointCount": 4096,
+      "pointCacheSeed": 0,
+      "pointCacheDistribution": 2,
+      "pointCacheBakeMode": 1,
+      "useMesh": false,
+      "meshPath": null,
+      "materialProperties": [],
+      "step": 1,
+      "stepCustomId": null,
+      "disabled": false
+    }
+  ]
+}

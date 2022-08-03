@@ -1,0 +1,21 @@
+﻿{
+  "$type": "ThunderRoad.LevelData, ThunderRoad",
+  "id": "Master",
+  "version": 3,
+  "modes": [
+    {
+      "name": "Default",
+      "modules": [
+        {
+          "$type": "CustomAvatarFramework.CustomAvatarLevelModule, CustomAvatarFramework"
+        },
+        {
+          "$type": "CustomAvatarFramework.CustomAvatarPlayerLevelModule, CustomAvatarFramework"
+        },
+        {
+          "$type": "CustomAvatarFramework.CustomAvatarInGameEditorLevelModule, CustomAvatarFramework"
+        }
+      ]
+    }
+  ]
+}

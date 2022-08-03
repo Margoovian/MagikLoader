@@ -1,0 +1,58 @@
+﻿{
+  "$type": "ThunderRoad.ContainerData, ThunderRoad",
+  "id": "Sith",
+  "version": 1,
+  "displayName": "",
+  "prefabName": "",
+  "contents": [
+    {
+      "reference": "Table",
+      "referenceID": "SithFeet",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "SithLegs",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "SithTorso",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "SithHandL",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "SithHandR",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "SithHead",
+      "customDataList": []
+    },
+    {
+      "referenceID": "Hairs",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "referenceID": "BeardsMage",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "SithSabers",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "BackRight"
+      },
+      "customDataList": []
+    }
+  ]
+}

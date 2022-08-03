@@ -1,0 +1,18 @@
+{
+  "$type": "ThunderRoad.LootTable, Assembly-CSharp",
+  "id": "MMPViking_Shield",
+  "saveFolder": "Bas",
+  "version": 1,
+  "drops": [
+    {
+      "referenceID": "MMPShieldKiteLeft",
+      "reference": "Item",
+      "probabilityWeight": 0.5
+    },
+    {
+      "referenceID": "MMPVikingShield",
+      "reference": "Item",
+      "probabilityWeight": 1.0
+    }
+  ]
+}

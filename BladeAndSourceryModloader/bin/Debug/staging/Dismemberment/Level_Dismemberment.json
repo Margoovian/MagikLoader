@@ -1,0 +1,16 @@
+{
+  "$type": "ThunderRoad.LevelData, Assembly-CSharp",
+  "id": "Master",
+  "version": 3,
+  "modes": [
+    {
+      "name": "Default",
+      "modules": [
+        {
+          "$type": "Dismemberment.Slice, Dismemberment",
+		  "dismembermentMinVelocity": 0.0
+        }
+      ]
+    }
+  ]
+}

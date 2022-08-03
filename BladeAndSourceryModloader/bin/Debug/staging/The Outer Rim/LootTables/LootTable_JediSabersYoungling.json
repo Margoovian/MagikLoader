@@ -1,0 +1,17 @@
+{
+  "$type": "ThunderRoad.LootTable, ThunderRoad",
+  "id": "JediSabersYoungling",
+  "version": 1,
+  "drops": [
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Youngling",
+      "probabilityWeight": 1.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Youngling2",
+      "probabilityWeight": 1.0
+    }
+  ]
+}

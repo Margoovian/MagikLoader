@@ -1,0 +1,60 @@
+{
+  "$type": "ThunderRoad.CreatureTable, ThunderRoad",
+  "id": "BountyHunter",
+  "version": 1,
+  "description": null,
+  "linkedToGenderRatio": false,
+  "drops": [
+    {
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": true,
+      "factionID": 3,
+      "overrideContainer": true,
+      "overrideContainerID": "BountyHunter",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": true,
+      "factionID": 3,
+      "overrideContainer": true,
+      "overrideContainerID": "BountyHunterDual",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        20,
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": true,
+      "factionID": 3,
+      "overrideContainer": true,
+      "overrideContainerID": "BountyHunterGrenadier",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        10,
+        10,
+        15,
+        15,
+        15
+      ]
+    }
+  ]
+}

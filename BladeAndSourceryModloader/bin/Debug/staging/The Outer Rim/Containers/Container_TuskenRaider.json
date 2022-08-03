@@ -1,0 +1,23 @@
+{
+  "$type": "ThunderRoad.ContainerData, ThunderRoad",
+  "id": "TuskenRaider",
+  "version": 1,
+  "displayName": "",
+  "prefabName": "",
+  "contents": [
+    {
+      "reference": "Table",
+      "referenceID": "TuskenRaiderWeapon",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "BackRight"
+      },
+      "customDataList": []
+    },
+    {
+      "referenceID": "ApparelBanditBoots",
+      "reference": "Item",
+      "customDataList": []
+    }
+  ]
+}

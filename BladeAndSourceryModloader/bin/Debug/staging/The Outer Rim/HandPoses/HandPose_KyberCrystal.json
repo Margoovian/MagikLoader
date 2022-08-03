@@ -1,0 +1,21 @@
+{
+  "$type": "ThunderRoad.HandPoseData, ThunderRoad",
+  "id": "HandleKyberCrystal",
+  "version": 2,
+  "allowThumbTracking": false,
+  "allowIndexTracking": false,
+  "allowMiddleTracking": false,
+  "allowRingTracking": false,
+  "allowLittleTracking": false,
+  "indexNoTrigger": false,
+  "poses": [
+    {
+      "creatureName": "HumanMale",
+      "handPoseAddress": "Bas.HandPose.HumanMale.Cork"
+    },
+    {
+      "creatureName": "HumanFemale",
+      "handPoseAddress": "Bas.HandPose.HumanFemale.Cork"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "$type": "ThunderRoad.HolderData, Assembly-CSharp",
+  "id": "HolderHips",
+  "saveFolder": "Bas",
+  "version": 3,
+  "slots": [
+    "MMPSheath"
+  ]
+}

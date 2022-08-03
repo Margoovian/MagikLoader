@@ -3,10 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="gamePath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Testing</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="modFolderPaths" Type="System.String" Scope="User">
-      <Value Profile="(Default)">"Test""Test2""Test3"</Value>
+      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>

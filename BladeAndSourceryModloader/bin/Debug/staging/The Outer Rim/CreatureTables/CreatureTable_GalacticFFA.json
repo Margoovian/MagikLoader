@@ -1,0 +1,74 @@
+{
+  "$type": "ThunderRoad.CreatureTable, ThunderRoad",
+  "id": "GalacticFFA",
+  "version": 1,
+  "description": null,
+  "linkedToGenderRatio": false,
+  "drops": [
+    {
+      "reference": "Table",
+      "referenceID": "Jedi",
+      "overrideFaction": false,
+      "factionID": 0,
+      "probabilityWeights": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Sith",
+      "overrideFaction": false,
+      "factionID": 0,
+      "probabilityWeights": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "TuskenRaider",
+      "overrideFaction": false,
+      "factionID": 0,
+      "probabilityWeights": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Gamorrean",
+      "overrideFaction": false,
+      "factionID": 0,
+      "probabilityWeights": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "BountyHunter",
+      "overrideFaction": false,
+      "factionID": 0,
+      "probabilityWeights": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ]
+}

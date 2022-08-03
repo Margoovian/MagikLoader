@@ -1,0 +1,262 @@
+{
+  "$type": "ThunderRoad.LootTable, ThunderRoad",
+  "id": "JediSabers",
+  "version": 1,
+  "drops": [
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_AaylaSecura",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_AdiGallia",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Ahsoka",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Ahsoka2",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_AhsokaShoto",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_AhsokaShoto2",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Anakin",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Anakin2",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_AnakinSolo",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Ancient",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_BarrissOffee",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Bastila",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_BenSolo",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Byph",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Cal",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_CalSplit",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_EvenPiell",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Ezra2",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Firebrand",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_GalenMarek2",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_GalenMarekConcept",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Ganodi",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_GreyJediLight",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Gungi",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_JacenSolo",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_JainaSolo",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_JaroTapal",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_KananJarrus",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Katooni",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_KiAdiMundi",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_KyleKatarn",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Leia",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_LukeSkywalker",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_LukeSkywalkerV2",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_MaceWindu",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_MaceWindu2",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_MaraJade",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_ObiWan",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_ObiWan2",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_OldRepublic",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Petro",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_PloKoonClan",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_PongKrell",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_QuiGonJinn",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_RahmKota",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Revan",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Rey",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_StellanGios",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_TempleGuard",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_YaraelPoof",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Lightsaber_Yoda",
+      "probabilityWeight": 1.0
+    }
+  ]
+}

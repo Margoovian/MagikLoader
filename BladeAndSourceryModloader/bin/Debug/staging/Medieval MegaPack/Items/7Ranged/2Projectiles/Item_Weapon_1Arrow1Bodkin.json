@@ -1,0 +1,110 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "MMPArrowBodkin",
+  "saveFolder": "bas",
+  "version": 4,
+  "localizationId": "MMPArrowBodkin",
+  "displayName": "Bodkin Arrow",
+  "description": "A simple arrow designed for piercing light armors.",
+  "author": "Sushin",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 2,
+  "levelRequired": 0,
+  "isStackable": false,
+  "categoryPath": [
+    "Ranged"
+  ],
+  "iconEffectId": null,
+  "iconAddress": "mmp.ArrowBodkin.Icon",
+  "prefabAddress": "mmp.ArrowBodkin",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "type": "Weapon",
+  "slot": "Arrow",
+  "snapAudioContainerAddress": null,
+  "mass": 0.2,
+  "drag": 0.0,
+  "angularDrag": 0.5,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "flyFromThrow": true,
+  "flyRotationSpeed": 5.0,
+  "flyThrowAngle": 30.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": false,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": true,
+  "grabAndGripClimb": false,
+  "playerGrabAndGripChangeLayer": true,
+  "customSnaps": [],
+  "modules": [
+    {
+      "$type": "ThunderRoad.ItemModuleAI, ThunderRoad",
+      "weaponClass": "Arrow",
+      "weaponHandling": "OneHanded",
+      "parryIgnoreRotation": false,
+      "parryRotation": 90.0,
+      "parryDualRotation": 60.0,
+      "armResistanceMultiplier": 1.0,
+      "parryRevertAngleRange": {
+        "x": -80.0,
+        "y": -180.0
+      },
+      "parryDefaultPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "parryDefaultLeftRotation": {
+        "x": 25.0,
+        "y": -10.0,
+        "z": -65.0
+      },
+      "parryDefaultRightRotation": {
+        "x": 30.0,
+        "y": 5.0,
+        "z": 60.0
+      },
+      "allowDynamicHeight": false,
+      "defenseHasPriority": false,
+      "attackIgnore": false,
+      "attackForceParryIgnoreRotation": true
+    }
+  ],
+  "colliderGroups": [
+    {
+      "$type": "ThunderRoad.ItemData+ColliderGroup, ThunderRoad",
+      "transformName": "Colliders",
+      "colliderGroupId": "Arrow"
+    }
+  ],
+  "damagers": [
+    {
+      "$type": "ThunderRoad.ItemData+Damager, ThunderRoad",
+      "transformName": "Pierce",
+      "damagerID": "MMPPierceArrow"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "Handle",
+      "interactableId": "ObjectHandleArrowBack",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    },
+    {
+      "transformName": "AxisHandle",
+      "interactableId": "ObjectHandleArrowAxis",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": []
+}

@@ -1,0 +1,12 @@
+{
+  "$type": "ThunderRoad.LootTable, ThunderRoad",
+  "id": "JediHandL",
+  "version": 1,
+  "drops": [
+    {
+      "reference": "Table",
+      "referenceID": "MageHandL",
+      "probabilityWeight": 3.0
+    }
+  ]
+}

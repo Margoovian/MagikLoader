@@ -1,0 +1,33 @@
+{
+  "$type": "ThunderRoad.LootTable, Assembly-CSharp",
+  "id": "SurvivalRewards1",
+  "saveFolder": "Bas",
+  "version": 1,
+  "drops": [
+    {
+      "referenceID": "MMPTier0",
+      "reference": "Table",
+      "probabilityWeight": 50.0
+    },
+    {
+      "referenceID": "MMPTier1",
+      "reference": "Table",
+      "probabilityWeight": 50.0
+    },
+    {
+      "referenceID": "MMPTier2",
+      "reference": "Table",
+      "probabilityWeight": 25.0
+    },
+    {
+      "referenceID": "MMPTier3",
+      "reference": "Table",
+      "probabilityWeight": 10.0
+    },
+    {
+      "referenceID": "MMPTier4",
+      "reference": "Table",
+      "probabilityWeight": 1.0
+    }
+  ]
+}

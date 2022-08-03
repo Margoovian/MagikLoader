@@ -1,0 +1,81 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "KyberCrystalGreen",
+  "version": 4,
+  "prefabAddress": "theouterrim_lightsabers.KyberCrystal2",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "type": "Misc",
+  "canBeStoredInPlayerInventory": true,
+  "isStackable": true,
+  "maxStackQuantity": 10,
+  "slot": "Medium",
+  "overrideMassAndDrag": true,
+  "mass": 0.1,
+  "drag": 1.0,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": null,
+  "flyFromThrow": false,
+  "flyRotationSpeed": 2.0,
+  "flyThrowAngle": 0.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": true,
+  "customSnaps": [],
+  "modules": [
+    {
+      "$type": "TOR.ItemModuleKyberCrystal, TheOuterRim",
+      "bladeColour": [0, 1, 0.118, 1],
+      "glowColour": [0, 1, 0, 1],
+      "innerGlow": 0.4,
+      "outerGlow": 3.3,
+      "isUnstable": false,
+      "idleSound": "theouterrim_lightsabers.LightsaberIdleGreen",
+      "idleSoundVolume": 0.2,
+      "idleSoundPitch": 1.0,
+      "startSound": "theouterrim_lightsabers.LightsaberStartGreen",
+      "startSoundVolume": 0.6,
+      "startSoundPitch": 1.0,
+      "stopSound": "theouterrim_lightsabers.LightsaberStopGreen",
+      "stopSoundVolume": 0.35,
+      "stopSoundPitch": 1.0,
+      "whooshFX": "WhooshLightsaberGreen"
+    }
+  ],
+  "colliderGroups": [],
+  "damagers": [
+    {
+      "transformName": "Blunt",
+      "damagerID": "Handle1H"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "Handle",
+      "interactableId": "ObjectHandleLight",
+      "overrideHandPose": true,
+      "handPoseId": "HandleKyberCrystal"
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [],
+  "localizationId": "KyberCrystalGreen",
+  "displayName": "Kyber Crystal (Green)",
+  "description": "",
+  "author": "Kingo64",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 0,
+  "levelRequired": 0,
+  "category": "Kyber Crystals",
+  "iconEffectId": null,
+  "iconAddress": "theouterrim_lightsabers.KyberCrystalGreen.Icon"
+}

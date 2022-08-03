@@ -1,0 +1,165 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "Weapon_GaffiSpear",
+  "version": 4,
+  "prefabAddress": "theouterrim.Weapon_GaffiSpear",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "type": "Weapon",
+  "slot": "Medium",
+  "overrideMassAndDrag": true,
+  "mass": 4.0,
+  "drag": 1.0,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": "Bas.AudioGroup.Snap.Other",
+  "flyFromThrow": false,
+  "flyRotationSpeed": 2.0,
+  "flyThrowAngle": 60.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.5,
+  "grippable": true,
+  "customSnaps": [],
+  "modules": [
+    {
+      "$type": "TOR.ItemModuleTaunt, TheOuterRim",
+      "tauntID": "TauntSound",
+      "tauntSound": "theouterrim.VoiceTuskenRaider_Taunt",
+      "tauntDropSound": "",
+      "aiTauntChance": 0.0,
+      "gripPrimaryAction": "",
+      "gripSecondaryAction": "playTaunt"
+    },
+    {
+      "$type": "ThunderRoad.ItemModuleAI, ThunderRoad",
+      "weaponClass": "Melee",
+      "weaponHandling": "OneHanded",
+      "parryIgnoreRotation": false,
+      "parryRotation": 90.0,
+      "parryDualRotation": 60.0,
+      "armResistanceMultiplier": 3.0,
+      "parryRevertAngleRange": {
+        "x": -80.0,
+        "y": -180.0
+      },
+      "parryDefaultPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "parryDefaultLeftRotation": {
+        "x": 25.0,
+        "y": -10.0,
+        "z": -65.0
+      },
+      "parryDefaultRightRotation": {
+        "x": 30.0,
+        "y": 5.0,
+        "z": 60.0
+      },
+      "allowDynamicHeight": false,
+      "dodgeBehaviour": "NotParrying",
+      "defenseHasPriority": false,
+      "attackIgnore": false,
+      "attackForceParryIgnoreRotation": false
+    }
+  ],
+  "colliderGroups": [
+    {
+      "transformName": "ColliderBody",
+      "colliderGroupId": "BladeMace"
+    },
+    {
+      "transformName": "ColliderSpearTip",
+      "colliderGroupId": "BladeAxe"
+    },
+    {
+      "transformName": "ColliderFins",
+      "colliderGroupId": "BladeAxe"
+    }
+  ],
+  "damagers": [
+    {
+      "transformName": "DamagerBlunt",
+      "damagerID": "Mace2H"
+    },
+    {
+      "transformName": "DamagerHandle",
+      "damagerID": "Handle2H"
+    },
+    {
+      "transformName": "DamagerStab",
+      "damagerID": "DaggerPierce"
+    },
+    {
+      "transformName": "DamagerSlash1",
+      "damagerID": "GaffiSpearHead"
+    },
+    {
+      "transformName": "DamagerSlash2",
+      "damagerID": "GaffiSpearHead"
+    },
+    {
+      "transformName": "DamagerSlash3",
+      "damagerID": "GaffiSpearHead"
+    },
+    {
+      "transformName": "DamagerSlash4",
+      "damagerID": "GaffiSpearHead"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "Handle",
+      "interactableId": "ObjectHandleHeavy",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    },
+    {
+      "transformName": "Handle2",
+      "interactableId": "ObjectHandleHeavy",
+      "overrideHandPose": true,
+      "handPoseId": "HandleSmall"
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [
+    {
+      "transformName": "Whoosh",
+      "effectId": "WhooshMace",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 3.0,
+      "maxVelocity": 10.0,
+      "dampening": 0.1
+    },
+    {
+      "transformName": "Whoosh2",
+      "effectId": "WhooshSwordShort",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 5.0,
+      "maxVelocity": 14.0,
+      "dampening": 0.1
+    }
+  ],
+  "localizationId": "Weapon_GaffiSpear",
+  "displayName": "Gaffi Spear",
+  "description": "The gaffi spear was a variant of the traditional gaderffii with a deadly mace on one end.",
+  "author": "Kingo64",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 0,
+  "levelRequired": 0,
+  "isStackable": false,
+  "category": "Outer Rim",
+  "iconEffectId": null,
+  "iconAddress": "theouterrim.Weapon_GaffiSpear.Icon"
+}

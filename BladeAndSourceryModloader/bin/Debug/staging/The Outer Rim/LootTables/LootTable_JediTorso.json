@@ -1,0 +1,12 @@
+{
+  "$type": "ThunderRoad.LootTable, ThunderRoad",
+  "id": "JediTorso",
+  "version": 1,
+  "drops": [
+    {
+      "reference": "Item",
+      "referenceID": "ApparelBattlemageJacket",
+      "probabilityWeight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$type": "ThunderRoad.LootTable, Assembly-CSharp",
+  "id": "MMPGrecoRoman_Weapon1H",
+  "saveFolder": "Bas",
+  "version": 1,
+  "drops": [
+    {
+      "referenceID": "MMPByzantineMace",
+      "reference": "Item",
+      "probabilityWeight": 1.0
+    },
+    {
+      "referenceID": "MMPFalcata",
+      "reference": "Item",
+      "probabilityWeight": 1.0
+    },
+    {
+      "referenceID": "MMPGladius",
+      "reference": "Item",
+      "probabilityWeight": 1.0
+    },
+    {
+      "referenceID": "MMPHopliteSword",
+      "reference": "Item",
+      "probabilityWeight": 1.0
+    },
+    {
+      "referenceID": "MMPMakhaira",
+      "reference": "Item",
+      "probabilityWeight": 1.0
+    },
+    {
+      "referenceID": "MMPSpatha",
+      "reference": "Item",
+      "probabilityWeight": 1.0
+    },
+    {
+      "referenceID": "MMPMyceneanSword",
+      "reference": "Item",
+      "probabilityWeight": 1.0
+    }
+  ]
+}

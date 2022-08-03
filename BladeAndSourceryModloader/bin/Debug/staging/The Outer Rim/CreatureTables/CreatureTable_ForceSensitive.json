@@ -1,0 +1,43 @@
+{
+  "$type": "ThunderRoad.CreatureTable, ThunderRoad",
+  "id": "ForceSensitive",
+  "version": 1,
+  "description": null,
+  "linkedToGenderRatio": true,
+  "drops": [
+    {
+      "reference": "Creature",
+      "referenceID": "ForceSensitiveFemale",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "reference": "Creature",
+      "referenceID": "ForceSensitiveMale",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

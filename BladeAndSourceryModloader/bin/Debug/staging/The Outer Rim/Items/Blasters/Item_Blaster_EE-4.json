@@ -1,0 +1,265 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "Blaster_EE-4",
+  "version": 4,
+  "prefabAddress": "theouterrim_blasters.Blaster_EE-4",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "type": "Weapon",
+  "slot": "Medium",
+  "overrideMassAndDrag": true,
+  "mass": 2.5,
+  "drag": 1.0,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": "theouterrim.SnapBlasterLarge",
+  "flyFromThrow": false,
+  "flyRotationSpeed": 2.0,
+  "flyThrowAngle": 60.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": true,
+  "customSnaps": [],
+  "modules": [
+    {
+      "$type": "TOR.ItemModuleBlaster, TheOuterRim",
+      "altFireRateMultiplier": 0.4,
+      "automaticReload": false,
+      "bulletForce": 3500,
+      "fireDelay": 0.0,
+      "fireHaptic": 1.0,
+      "fireModes": [2, 1],
+      "burstRPM": 800.0,
+      "gunRPM": [120.0],
+      "magazineSize": 150,
+      "overheatRate": 0.3,
+      "overheatThreshold": 5.0,
+      "recoil": true,
+      "recoilAngle": [-8.0, -10.0, -2.0, 2.0, -6.0, 6.0],
+      "recoilForce": [-20.0, 20.0, 50.0, 100.0, -200.0, -500.0],
+      "reloadTime": 1.8,
+
+      "handlingBaseAccuracy": 0,
+      "handlingInstabilityRate": 3.5,
+      "handlingInstabilityMax": 5.0,
+      "handlingInstabilityThreshold": 0,
+      "handlingStabilityMultiplier": 2.5,
+
+      "gunGripPrimaryAction": "fire",
+      "gunGripPrimaryActionHold": "",
+      "gunGripSecondaryAction": "cycleFiremode",
+      "gunGripSecondaryActionHold": "toggleAltFire",
+      "foreGripPrimaryAction": "",
+      "foreGripPrimaryActionHold": "",
+      "foreGripSecondaryAction": "",
+      "foreGripSecondaryActionHold": "reload",
+      "scopeGripPrimaryAction": "",
+      "scopeGripPrimaryActionHold": "",
+      "scopeGripSecondaryAction": "cycleScope",
+      "scopeGripSecondaryActionHold": "resetScope",
+      "secondaryGripPrimaryAction": "",
+      "secondaryGripPrimaryActionHold": "",
+      "secondaryGripSecondaryAction": "",
+      "secondaryGripSecondaryActionHold": "",
+
+      "altFireEffectID": "",
+      "bulletSpawnIDs": ["BulletSpawn"],
+      "fireEffectID": "FireEffect",
+      "overheatEffectID": "OverheatEffect",
+      "projectileID": "BlasterBoltRed",
+      "altFireProjectileID": "BlasterStun",
+      "scopeID": "Scope",
+      "scopeCameraID": "ScopeCamera",
+
+      "fireEffectUseBoltHue": true,
+
+      "foreGripID": "ForeGrip",
+      "gunGripID": "GunGrip",
+      "scopeGripID": "ScopeGrip",
+      "secondaryGripID": "",
+
+      "altFireSoundID": "FireSounds",
+      "altFireSoundPath": "theouterrim_blasters.BlasterStunFire",
+      "altFireSoundID2": "",
+      "altFireSoundPath2": "",
+
+      "emptySoundID": "EmptySounds",
+      "emptySoundPath": "theouterrim_blasters.BlasterEmpty",
+      "emptySoundID2": "",
+      "emptySoundPath2": "",
+
+      "fireSoundID": "FireSounds",
+      "fireSoundPath": "theouterrim_blasters.BlasterEE4Fire",
+      "fireSoundID2": "FireSounds2",
+      "fireSoundPath2": "theouterrim_blasters.BlasterBassMechanical",
+      "fireSoundID3": "",
+      "fireSoundPath3": "",
+
+      "firemodeSoundID": "FiremodeSounds",
+      "firemodeSoundPath": "theouterrim_blasters.BlasterFiremode",
+      "firemodeSoundID2": "",
+      "firemodeSoundPath2": "",
+
+      "overheatSoundID": "OverheatSounds",
+      "overheatSoundPath": "theouterrim_blasters.BlasterOverheat",
+      "overheatSoundID2": "",
+      "overheatSoundPath2": "",
+
+      "preFireSoundID": "",
+      "preFireSoundPath": "",
+      "preFireSoundID2": "",
+      "preFireSoundPath2": "",
+
+      "reloadSoundID": "ReloadFoleySounds",
+      "reloadSoundPath": "theouterrim_blasters.BlasterReloadFoley",
+      "reloadSoundID2": "ReloadSounds",
+      "reloadSoundPath2": "theouterrim_blasters.BlasterReload",
+
+      "reloadEndSoundID": "ReloadFoleySounds",
+      "reloadEndSoundPath": "theouterrim_blasters.BlasterReloadFoley",
+      "reloadEndSoundID2": "ReloadSounds",
+      "reloadEndSoundPath2": "theouterrim_blasters.BlasterReloadEnd",
+
+      "hasScope": true,
+      "scopeZoom": [10, 6, 4, 18],
+      "scopeEdgeWarp": -3,
+      "scopeReticle": "theouterrim_blasters.ScopeReticle3",
+      "scopeReticleColour": [1, 0, 0, 0],
+      "scopeReticleContrast": 1,
+      "scopeReticleUseBoltHue": true,
+
+      "overrideBoltDamager": "",
+      "overrideBoltAltDamager": "",
+      "overrideBoltChargeDamager": "",
+
+      "aiShootDistanceMult": 1.0,
+      "aiMeleeEnabled": false
+    },
+    {
+      "$type": "ThunderRoad.ItemModuleAI, ThunderRoad",
+      "weaponClass": "Firearm",
+      "weaponHandling": "OneHanded",
+      "parryIgnoreRotation": false,
+      "parryRotation": 0.0,
+      "parryDualRotation": 0.0,
+      "armResistanceMultiplier": 3.0,
+      "parryRevertAngleRange": {
+         "x": 0.0,
+         "y": 0.0
+      },
+      "parryDefaultPosition": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "parryDefaultLeftRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "parryDefaultRightRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "allowDynamicHeight": false,
+      "dodgeBehaviour": "NotParrying",
+      "defenseHasPriority": true,
+      "attackIgnore": false,
+      "attackForceParryIgnoreRotation": false,
+      "ammoType": "",
+      "rangedWeaponData": {
+        "$type": "ThunderRoad.ItemModuleAI+RangedWeaponData, ThunderRoad",
+        "tooCloseDistance": 1.0,
+        "spread": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "projectileSpeed": 22.0,
+        "accountForGravity": false,
+        "weaponAimPosOffset": {
+          "x": 0.3,
+          "y": -0.07,
+          "z": 0.7
+        },
+        "weaponAimAngleOffsets": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "customRangedAttackAnimationData": ""
+      },
+      "stanceDatas": []
+    }
+  ],
+  "colliderGroups": [
+    {
+      "transformName": "Colliders",
+      "colliderGroupId": "PropMetal"
+    },
+    {
+      "transformName": "CollisionBlasterRefill",
+      "colliderGroupId": "PropMetal"
+    }
+  ],
+  "damagers": [
+    {
+      "transformName": "BluntDamage",
+      "damagerID": "Mace1H"
+    },
+    {
+      "transformName": "RefillDamage",
+      "damagerID": "Mace1H"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "HandleGrip",
+      "interactableId": "ObjectHandleLight",
+      "overrideHandPose": true,
+      "handPoseId": "HandleE11"
+    },
+    {
+      "transformName": "HandleForegrip",
+      "interactableId": "ObjectHandleLight",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    },
+    {
+      "transformName": "HandleScope",
+      "interactableId": "ObjectHandleLight",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [
+    {
+      "transformName": "Whoosh",
+      "effectId": "WhooshSwordShort",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 5.0,
+      "maxVelocity": 12.0
+    }
+  ],
+  "localizationId": "Blaster_EE-4",
+  "displayName": "EE-4 Carbine Rifle",
+  "description": "Unlike its predecessor, the EE-3, the EE-4 the EE-4 was built to be more effective at close range with a superior fire rate and a shorter barrel.",
+  "author": "Kingo64",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 0,
+  "levelRequired": 0,
+  "isStackable": false,
+  "category": "Blasters",
+  "iconEffectId": null,
+  "iconAddress": "theouterrim_blasters.Blaster_EE-4.Icon"
+}

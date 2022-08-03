@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
-using System.IO;
 
 namespace BladeAndSourceryModloader
 {
@@ -36,17 +30,18 @@ namespace BladeAndSourceryModloader
             if (GamePath != "")
             {
                 gamePath.Text = GamePath;
-            } else
+            }
+            else
             {
                 gamePath.Text = "Please assign game folder!";
             }
 
-            foreach(Match path in mpaths)
+            foreach (Match path in mpaths)
             {
                 modPathControl modfolder = new modPathControl(this);
                 modfolder.Size = new Size(400, 26);
                 modfolder.SetPath(path.Groups[1].ToString());
-                modPaths.Controls.Add(modfolder);   
+                modPaths.Controls.Add(modfolder);
             }
         }
 
@@ -68,7 +63,7 @@ namespace BladeAndSourceryModloader
                 if (Directory.Exists(modpathcontrol.GetPath()))
                 {
                     if (modpathcontrol.GetPath() != "") { finalmodpaths = finalmodpaths + "\"" + modpathcontrol.GetPath() + "\""; }
-                    
+
                 }
             }
             Console.WriteLine(finalmodpaths);

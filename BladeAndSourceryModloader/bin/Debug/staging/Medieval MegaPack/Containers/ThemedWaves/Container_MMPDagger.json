@@ -1,0 +1,47 @@
+{
+  "$type": "ThunderRoad.ContainerData, Assembly-CSharp",
+  "id": "MMPDagger1H",
+  "saveFolder": "Bas",
+  "version": 1,
+  "displayName": "",
+  "description": null,
+  "contents": [
+    {
+      "referenceID": "Shirts",
+      "reference": "Table",
+      "customValues": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "ApparelBanditPants",
+      "reference": "Item",
+      "customValues": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "ApparelBanditBoots",
+      "reference": "Item",
+      "customValues": []
+    },
+    {
+      "referenceID": "Weapon1HSmall",
+      "reference": "Table",
+      "customValues": [
+        {
+          "id": "Holder",
+          "value": "BackRight"
+        }
+      ]
+    },
+    {
+      "referenceID": "Hairs",
+      "reference": "Table",
+      "customValues": []
+    },
+    {
+      "referenceID": "Beards",
+      "reference": "Table",
+      "customValues": []
+    }
+  ]
+}

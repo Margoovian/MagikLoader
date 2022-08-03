@@ -1,0 +1,33 @@
+{
+  "$type": "ThunderRoad.LootTable, Assembly-CSharp",
+  "id": "ShieldStrapped",
+  "saveFolder": "Bas",
+  "version": 1,
+  "drops": [
+    {
+      "referenceID": "MMPShieldMediumLeft",
+      "reference": "Item",
+      "probabilityWeight": 3.0
+    },
+    {
+      "referenceID": "MMPShieldWoodenHeaterLeft",
+      "reference": "Item",
+      "probabilityWeight": 3.0
+    },
+    {
+      "referenceID": "MMPShieldKiteLeft",
+      "reference": "Item",
+      "probabilityWeight": 3.0
+    },
+    {
+      "referenceID": "MMPVikingShield",
+      "reference": "Item",
+      "probabilityWeight": 3.0
+    },
+    {
+      "referenceID": "MMPSpikedPavise",
+      "reference": "Item",
+      "probabilityWeight": 3.0
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "MMPTrident",
+  "saveFolder": "Bas",
+  "version": 4,
+  "prefabAddress": "mmp.Trident",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "allowDecals": false,
+  "type": "Weapon",
+  "slot": "Large",
+  "mass": 2.0,
+  "drag": 0.4,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": "Bas.AudioGroup.Snap.Other",
+  "flyFromThrow": true,
+  "flyRotationSpeed": 5.0,
+  "flyThrowAngle": 30.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": true,  "grabAndGripClimb": false,  "playerGrabAndGripChangeLayer": true,
+  "customSnaps": [],
+  "modules": [
+    {
+      "$type": "ThunderRoad.ItemModuleAI, Assembly-CSharp",
+      "weaponClass": "Melee",
+      "weaponHandling": "TwoHanded",
+      "parryIgnoreRotation": false,
+      "parryRotation": 90.0,
+      "parryDualRotation": 60.0,
+      "armResistanceMultiplier": 3.0,
+      "parryRevertAngleRange": {
+        "x": -80.0,
+        "y": -180.0
+      },
+      "parryDefaultPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "parryDefaultLeftRotation": {
+        "x": 25.0,
+        "y": -10.0,
+        "z": -65.0
+      },
+      "parryDefaultRightRotation": {
+        "x": 30.0,
+        "y": 5.0,
+        "z": 60.0
+      },
+      "allowDynamicHeight": false,
+      "dodgeBehaviour": "NotParrying",
+      "defenseHasPriority": false,
+      "attackIgnore": false,
+      "attackForceParryIgnoreRotation": false
+    }
+  ],
+  "colliderGroups": [
+    {
+      "transformName": "Blades",
+      "colliderGroupId": "BladeSword2h"
+    },
+    {
+      "transformName": "Handle",
+      "colliderGroupId": "BladeMace"
+    }
+  ],
+  "damagers": [
+    {
+      "transformName": "Blunt",
+      "damagerID": "MMPBluntMordhau"
+    },
+    {
+      "transformName": "Pierce",
+      "damagerID": "MMPPierceSpear"
+    },
+    {
+      "transformName": "SlashSide",
+      "damagerID": "MMPSlashSpear"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "Handle",
+      "interactableId": "ObjectHandleLight",
+      "overrideHandPose": true,
+      "handPoseId": "HandleLarge"
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [
+    {
+      "transformName": "Whoosh",
+      "effectId": "WhooshSwordShort",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 3.0,
+      "maxVelocity": 14.0,
+      "dampening": 0.1
+    },
+    {
+      "transformName": "Whoosh2",
+      "effectId": "WhooshSwordShort",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 3.0,
+      "maxVelocity": 14.0,
+      "dampening": 0.1
+    }
+  ],
+  "localizationId": "MMPTrident",
+  "displayName": "Retiarius Trident",
+  "description": "A gladiatorial weapon used by retiarius, who were given combat gear similar to that of a fisherman.",
+  "author": "Sushin",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 2,
+  "levelRequired": 0,
+  "isStackable": false,
+  "categoryPath": [
+    "GrecoRoman"
+  ],
+  "iconEffectId": null,
+  "iconAddress": "mmp.Trident.Icon"
+}

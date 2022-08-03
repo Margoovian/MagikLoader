@@ -1,0 +1,70 @@
+{
+  "$type": "ThunderRoad.CreatureTable, ThunderRoad",
+  "id": "BasicJedi",
+  "saveFolder": "bas",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 1,
+  "description": null,
+  "linkedToGenderRatio": false,
+  "minMaxDifficulty": {
+    "x": 0,
+    "y": 0
+  },
+  "drops": [
+    {
+      "$type": "ThunderRoad.CreatureTable+Drop, ThunderRoad",
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "BasicJedi",
+      "overrideBrain": true,
+      "overrideBrainID": "HumanMedium",
+      "probabilityWeights": [
+        50,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "$type": "ThunderRoad.CreatureTable+Drop, ThunderRoad",
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "BasicJediDual",
+      "overrideBrain": true,
+      "overrideBrainID": "HumanMedium",
+      "probabilityWeights": [
+        40,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "$type": "ThunderRoad.CreatureTable+Drop, ThunderRoad",
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "BasicJediDoubleBladed",
+      "overrideBrain": true,
+      "overrideBrainID": "HumanMedium",
+      "probabilityWeights": [
+        10,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "$type": "ThunderRoad.LootTable, ThunderRoad",
+  "id": "MercMelee",
+  "version": 1,
+  "drops": [
+    {
+      "reference": "Item",
+      "referenceID": "Weapon_Vibrosword",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Weapon_Vibroblade",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Weapon_VibroDouble",
+      "probabilityWeight": 2.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Weapon_VibroswordModern",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Weapon_VibroswordModern2",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Weapon_VibroswordModern3",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Weapon_VibroswordModern4",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Weapon_VibroswordModern5",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Weapon_VibroswordModern6",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Weapon_SecurityBaton",
+      "probabilityWeight": 5.0
+    },
+    {
+      "reference": "Item",
+      "referenceID": "Weapon_StunBaton",
+      "probabilityWeight": 5.0
+    }
+  ]
+}

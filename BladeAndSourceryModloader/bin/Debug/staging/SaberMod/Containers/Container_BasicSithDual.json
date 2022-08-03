@@ -1,0 +1,98 @@
+{
+  "$type": "ThunderRoad.ContainerData, ThunderRoad",
+  "id": "BasicSithDual",
+  "saveFolder": "bas",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 1,
+  "displayName": "",
+  "description": null,
+  "contents": [
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "MageHandL",
+      "reference": "Table",
+      "quantity": 1,
+      "state": null,
+      "customDataList": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "MageHandR",
+      "reference": "Table",
+      "quantity": 1,
+      "state": null,
+      "customDataList": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "ApparelBattlemageJacket",
+      "reference": "Item",
+      "quantity": 1,
+      "state": null,
+      "customDataList": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "ApparelBattleMagePants",
+      "reference": "Item",
+      "quantity": 1,
+      "state": null,
+      "customDataList": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "ApparelBattlemageBoots",
+      "reference": "Item",
+      "quantity": 1,
+      "state": null,
+      "customDataList": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "BasicSithSabers",
+      "reference": "Table",
+      "quantity": 1,
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "HipsRight"
+      },
+      "customDataList": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "BasicSithSabers",
+      "reference": "Table",
+      "quantity": 1,
+      "state": {
+          "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+          "holderName": "HipsLeft"
+        },
+        "customDataList": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "MageHood",
+      "reference": "Table",
+      "quantity": 1,
+      "state": null,
+      "customDataList": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "BeardsMage",
+      "reference": "Table",
+      "quantity": 1,
+      "state": null,
+      "customDataList": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "Hairs",
+      "reference": "Table",
+      "quantity": 1,
+      "state": null,
+      "customDataList": []
+    }
+  ]
+}

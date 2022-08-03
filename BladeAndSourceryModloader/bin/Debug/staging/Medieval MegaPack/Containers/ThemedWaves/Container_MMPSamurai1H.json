@@ -1,0 +1,72 @@
+{
+  "$type": "ThunderRoad.ContainerData, Assembly-CSharp",
+  "id": "MMPSamurai1H",
+  "saveFolder": "Bas",
+  "version": 1,
+  "displayName": "",
+  "description": null,
+  "contents": [
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "PlateHelmet",
+      "reference": "Table",
+      "customValues": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "PlateHandL",
+      "reference": "Table",
+      "customValues": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "PlateHandR",
+      "reference": "Table",
+      "customValues": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "PlateChest",
+      "reference": "Table",
+      "customValues": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "ApparelSoldierPants",
+      "reference": "Item",
+      "customValues": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "ApparelSoldierBoots",
+      "reference": "Item",
+      "customValues": []
+    },
+    {
+      "$type": "ThunderRoad.ContainerData+Content, ThunderRoad",
+      "referenceID": "SoldierShoulders",
+      "reference": "Table",
+      "customValues": []
+    },
+    {
+      "referenceID": "MMPSamurai_Weapon1H",
+      "reference": "Table",
+      "customValues": [
+        {
+          "id": "Holder",
+          "value": "HipsLeft"
+        }
+      ]
+    },
+    {
+      "referenceID": "Hairs",
+      "reference": "Table",
+      "customValues": []
+    },
+    {
+      "referenceID": "Beards",
+      "reference": "Table",
+      "customValues": []
+    }
+  ]
+}

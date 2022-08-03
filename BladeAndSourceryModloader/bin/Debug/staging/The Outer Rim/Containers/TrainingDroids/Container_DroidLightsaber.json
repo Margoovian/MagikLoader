@@ -1,0 +1,23 @@
+﻿{
+  "$type": "ThunderRoad.ContainerData, ThunderRoad",
+  "id": "DroidLightsaber",
+  "version": 1,
+  "displayName": "",
+  "prefabName": "",
+  "contents": [
+    {
+      "reference": "Item",
+      "referenceID": "ApparelBattlemageBoots",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "JediSabers",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "BackRight"
+      },
+      "customDataList": []
+    }
+  ]
+}

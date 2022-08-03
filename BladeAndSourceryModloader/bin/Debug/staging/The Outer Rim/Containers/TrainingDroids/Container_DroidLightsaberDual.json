@@ -1,0 +1,32 @@
+﻿{
+  "$type": "ThunderRoad.ContainerData, ThunderRoad",
+  "id": "DroidLightsaberDual",
+  "version": 1,
+  "displayName": "",
+  "prefabName": "",
+  "contents": [
+    {
+      "reference": "Item",
+      "referenceID": "ApparelBattlemageBoots",
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "JediSabers",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "BackRight"
+      },
+      "customDataList": []
+    },
+    {
+      "reference": "Table",
+      "referenceID": "JediSabers",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "BackLeft"
+      },
+      "customDataList": []
+    }
+  ]
+}

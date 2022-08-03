@@ -1,0 +1,9 @@
+{
+  "$type": "ThunderRoad.HolderData, ThunderRoad",
+  "id": "HolderBack",
+  "version": 3,
+  "slots": [
+    "TOR_Jetpack",
+    "TOR_Pouch"
+  ]
+}

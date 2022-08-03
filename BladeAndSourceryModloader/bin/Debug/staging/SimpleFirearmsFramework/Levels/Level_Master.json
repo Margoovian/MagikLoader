@@ -1,0 +1,23 @@
+{
+  "$type": "ThunderRoad.LevelData, ThunderRoad",
+  "id": "Master",
+  "saveFolder": "bas",
+  "version": 3,
+  "modes": [
+    {
+      "$type": "ThunderRoad.LevelData+Mode, ThunderRoad",
+      "name": "Default",
+      "displayName": "Default",
+      "description": "NoDescription",
+      "allowGameModes": [],
+      "mapOrder": 0,
+      "difficultyMultipliers": [],
+      "modules": [
+        {
+          "$type": "SimpleBallistics.Modules.LevelModuleBulletPierce, SimpleBallistics"
+        }
+      ],
+      "availableOptions": []
+    }
+  ]
+}

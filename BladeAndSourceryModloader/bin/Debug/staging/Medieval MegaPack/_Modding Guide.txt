@@ -1,0 +1,32 @@
+------------------------------------------------------
+	Modding FAQ for making tweaks to MMP
+------------------------------------------------------
+
+How do I stop enemies from using weapons in MMP?
+	-Open LootTables and delete EnemyWeapons
+
+How do I enable hidden weapons?
+	-Open the Item Json file in notepad and set "purchasable" from "false" to "true". It's case sensitive.
+	-Right now the hidden weapons are OfferingSword2 (Japanese folder) and SwordArrow (Ranged folder) and some other stuff like the trick sword pommel and single arrows.
+
+How do I add/remove more enemies to waves?
+	-Open the Waves folder and open a json file in notepad
+	-"maxAlive": 1 should be set to the desired number of enemies
+	-Further in the json, there will be 2 numbers under a line called "minMaxCount", set both of those numbers to how many enemies you want to be in the wave before it ends. (It picks a random number between these two values if you want it to be random.)
+	-If you want it to be an infinite amount of enemies, set "loop" to true, but make sure to set maxAlive and minMaxCount higher than 1, otherwise it will loop a single enemy.
+
+How do I remove a specific weapon from spawning for enemies?
+	-Open LootTables and EnemyWeapons OR ThemedWaves depending on what you are trying to modify.
+	-LootTables effects all enemies in the game. ThemedWaves only effect the waves that come with MMP.
+	-Open a json, find the ID of your weapon and set "probabilityWeight" to 0.0 and it will no longer spawn for enemies.
+	-If you are unsure of the ID, all item jsons in the item folder are named after the weapon ID.  Find the matching file, open it, and scroll down to displayName to see the in-game name of the sword.
+
+How do I remove specific weapons from the mod?
+	-If you do this, fist delete the LootTables folder and Waves folder to prevent any bugs from occuring. (This will remove enemy waves from the mod and prevent enemies from spawning with weapons. If you don't do this, enemies will attempt to spawn in with deleted weapons and cause errors.)
+	-Go in Items folder and delete any unwanted items. This will prevent them from being loaded into the game.
+	-Item names can be identified by opening the Item json and looking for "displayName". This is the name of the item in the item book.
+
+How do I disable a weapon snapping into a flight path when I throw it?
+	-Open the Item json for the weapon.
+	-Find the line "flyFromThrow": true, and set true to false.
+	-Note: You can try setting false to true to make them snap into a throwing position, but it won't work on every weapon. However, it probably won't cause any issues to try. Anything that doesn't have a primary pierce damager will definitely not snap into place, since the weapons in MMP rotate towards the primary pierce damager by default.

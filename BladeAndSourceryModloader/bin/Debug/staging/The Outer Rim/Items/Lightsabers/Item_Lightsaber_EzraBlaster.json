@@ -1,0 +1,258 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "Lightsaber_EzraBlaster",
+  "version": 4,
+  "prefabAddress": "theouterrim_lightsabers.Lightsaber_EzraBlaster",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "type": "Weapon",
+  "slot": "Medium",
+  "overrideMassAndDrag": true,
+  "mass": 1.0,
+  "drag": 1.0,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": null,
+  "flyFromThrow": false,
+  "flyRotationSpeed": 30.0,
+  "flyThrowAngle": 0.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": false,
+  "customSnaps": [],
+  "modules": [
+    {
+      "$type": "TOR.ItemModuleLightsaber, TheOuterRim",
+      "canThrow": true,
+      "ignitionDuration": 0.1,
+      "primaryGripPrimaryAction": "",
+      "primaryGripPrimaryActionHold": "",
+      "primaryGripSecondaryAction": "toggleIgnition",
+      "primaryGripSecondaryActionHold": "nextPhase",
+      "lightsaberBlades": [
+        {
+          "$type": "TOR.LightsaberBlade, TheOuterRim",
+          "bladeLength": 0.9,
+          "phaseLengths": [0.9, 1.2, 0.7],
+          "kyberCrystal": "KyberCrystalBlue",
+          "collisionRef": "CollisionBlade",
+          "crystalEjectRef": "CrystalEject",
+          "saberBodyRef": "SaberBody",
+          "saberTipGlowRef": "SaberTipGlow",
+          "saberGlowRef": "SaberGlow",
+          "startSoundsRef": "StartSounds",
+          "stopSoundsRef": "StopSounds",
+          "whooshRef": "WhooshBlade"
+        }
+      ]
+    },
+    {
+      "$type": "TOR.ItemModuleBlaster, TheOuterRim",
+      "altFireRateMultiplier": 0.5,
+      "automaticReload": true,
+      "bulletForce": 5000,
+      "fireDelay": 0.0,
+      "fireHaptic": 1.0,
+      "fireModes": [1],
+      "gunRPM": [250.0],
+      "magazineSize": 50,
+      "overheatRate": 0.35,
+      "overheatThreshold": 5.0,
+      "recoil": true,
+      "recoilAngle": [-1000.0, 1000.0, 4000.0, 6000.0, -1000.0, 1000.0],
+      "recoilForce": [0.0, 0.0, 0.0, 0.0, -90.0, -100.0],
+      "reloadTime": 2.0,
+      
+      "handlingBaseAccuracy": 0,
+      "handlingInstabilityRate": 0.55,
+      "handlingInstabilityMax": 5.0,
+      "handlingInstabilityThreshold": 0,
+      "handlingStabilityMultiplier": 9.0,
+
+      "gunGripPrimaryAction": "fire",
+      "gunGripPrimaryActionHold": "",
+      "gunGripSecondaryAction": "",
+      "gunGripSecondaryActionHold": "",
+      "foreGripPrimaryAction": "toggleAltFire",
+      "foreGripPrimaryActionHold": "",
+      "foreGripSecondaryAction": "",
+      "foreGripSecondaryActionHold": "",
+      "scopeGripPrimaryAction": "",
+      "scopeGripPrimaryActionHold": "",
+      "scopeGripSecondaryAction": "",
+      "scopeGripSecondaryActionHold": "",
+      "secondaryGripPrimaryAction": "",
+      "secondaryGripPrimaryActionHold": "reload",
+      "secondaryGripSecondaryAction": "",
+      "secondaryGripSecondaryActionHold": "",
+      
+      "altFireEffectID": "",
+      "bulletSpawnIDs": ["BulletSpawn"],
+      "fireEffectID": "FireEffect",
+      "overheatEffectID": "OverheatEffect",
+      "projectileID": "BlasterBoltBlue",
+      "altFireProjectileID": "BlasterStun",
+      "scopeID": "",
+      "scopeCameraID": "",
+
+      "fireEffectUseBoltHue": true,
+
+      "foreGripID": "ForeGrip",
+      "gunGripID": "GunGrip",
+      "scopeGripID": "",
+      "secondaryGripID": "SecondaryGrip",
+      
+      "altFireSoundID": "FireSounds",
+      "altFireSoundPath": "theouterrim_blasters.BlasterStunFire",
+      "altFireSoundID2": "",
+      "altFireSoundPath2": "",
+
+      "emptySoundID": "EmptySounds",
+      "emptySoundPath": "theouterrim_blasters.BlasterEmpty",
+      "emptySoundID2": "",
+      "emptySoundPath2": "",
+
+      "fireSoundID": "FireSounds",
+      "fireSoundPath": "theouterrim_blasters.BlasterEzraFire",
+      "fireSoundID2": "FireSounds2",
+      "fireSoundPath2": "theouterrim_blasters.BlasterBassTight",
+      "fireSoundID3": "",
+      "fireSoundPath3": "",
+
+      "firemodeSoundID": "FiremodeSounds",
+      "firemodeSoundPath": "theouterrim_blasters.BlasterFiremode",
+      "firemodeSoundID2": "",
+      "firemodeSoundPath2": "",
+      
+      "overheatSoundID": "OverheatSounds",
+      "overheatSoundPath": "theouterrim_blasters.BlasterOverheat",
+      "overheatSoundID2": "",
+      "overheatSoundPath2": "",
+
+      "preFireSoundID": "",
+      "preFireSoundPath": "",
+      "preFireSoundID2": "",
+      "preFireSoundPath2": "",
+
+      "reloadSoundID": "ReloadFoleySounds",
+      "reloadSoundPath": "theouterrim_blasters.BlasterReloadFoley",
+      "reloadSoundID2": "ReloadSounds",
+      "reloadSoundPath2": "theouterrim_blasters.BlasterReload",
+
+      "reloadEndSoundID": "ReloadFoleySounds",
+      "reloadEndSoundPath": "theouterrim_blasters.BlasterReloadFoley",
+      "reloadEndSoundID2": "ReloadSounds",
+      "reloadEndSoundPath2": "theouterrim_blasters.BlasterReloadEnd",
+      
+      "overrideBoltDamager": "",
+      "overrideBoltAltDamager": "",
+      "overrideBoltChargeDamager": "",
+      
+      "aiShootDistanceMult": 0.8,
+      "aiMeleeEnabled": true
+    },
+    {
+      "$type": "ThunderRoad.ItemModuleAI, ThunderRoad",
+      "weaponClass": "Melee",
+      "weaponHandling": "OneHanded",
+      "parryIgnoreRotation": false,
+      "parryRotation": 90.0,
+      "parryDualRotation": 60.0,
+      "armResistanceMultiplier": 3.0,
+      "parryRevertAngleRange": {
+        "x": -80.0,
+        "y": -180.0
+      },
+      "parryDefaultPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "parryDefaultLeftRotation": {
+        "x": 25.0,
+        "y": -10.0,
+        "z": -65.0
+      },
+      "parryDefaultRightRotation": {
+        "x": 45.0,
+        "y": 0.0,
+        "z": 15.0
+      },
+      "allowDynamicHeight": false,
+      "dodgeBehaviour": "NotParrying",
+      "defenseHasPriority": false,
+      "attackIgnore": false,
+      "attackForceParryIgnoreRotation": false
+    }
+  ],
+  "colliderGroups": [
+    {
+      "transformName": "CollisionHilt",
+      "colliderGroupId": "BladeMace"
+    }
+  ],
+  "damagers": [
+    {
+      "transformName": "DamagerBladeStab",
+      "damagerID": "LightsaberPierce"
+    },
+    {
+      "transformName": "DamagerBlade",
+      "damagerID": "LightsaberSlash"
+    },
+    {
+      "transformName": "DamagerHilt",
+      "damagerID": "Handle1H"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "HandleHilt",
+      "interactableId": "ObjectHandleLightsaber",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    },
+    {
+      "transformName": "HandleHilt2",
+      "interactableId": "ObjectHandleLightsaber",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    },
+    {
+      "transformName": "HandleForeGrip",
+      "interactableId": "ObjectHandleLight",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [
+    {
+      "transformName": "WhooshBlade",
+      "effectId": "WhooshLightsaberBlue",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 1.0,
+      "maxVelocity": 20.0
+    }
+  ],
+  "localizationId": "Lightsaber_EzraBlaster",
+  "displayName": "Ezra Bridgers's Blaster Lightsaber",
+  "description": "Ezra Bridgers's Blaster Lightsaber was a prototype hybrid weapon with an adjustible blade and a functional blaster with stun capability. Modified to use blaster gas.",
+  "author": "Kingo64",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 0,
+  "levelRequired": 0,
+  "isStackable": false,
+  "category": "Lightsabers",
+  "iconEffectId": null,
+  "iconAddress": "theouterrim_lightsabers.Lightsaber_EzraBlaster.Icon"
+}

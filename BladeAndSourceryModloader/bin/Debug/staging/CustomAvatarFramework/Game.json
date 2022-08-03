@@ -1,0 +1,11 @@
+{
+  "$type": "ThunderRoad.GameData, ThunderRoad",
+  "categories": [
+    {
+      "$type": "ThunderRoad.GameData+Category, ThunderRoad",
+      "name": "Avatars",
+      "group": "Weapons",
+      "iconAddress": "CustomAvatarIcon"
+    }
+  ]
+}

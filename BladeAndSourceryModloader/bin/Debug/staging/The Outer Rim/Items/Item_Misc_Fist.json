@@ -1,0 +1,94 @@
+﻿{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "TOR_Fist",
+  "version": 4,
+  "prefabAddress": "theouterrim.Fist",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "type": "Weapon",
+  "slot": "Medium",
+  "overrideMassAndDrag": true,
+  "mass": 0.0,
+  "drag": 0.0,
+  "angularDrag": 0.0,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": null,
+  "flyFromThrow": false,
+  "flyRotationSpeed": 0.0,
+  "flyThrowAngle": 0.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": false,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": false,
+  "customSnaps": [],
+  "modules": [
+    {
+      "$type": "ThunderRoad.ItemModuleAI, ThunderRoad",
+      "weaponClass": "Melee",
+      "weaponHandling": "OneHanded",
+      "parryIgnoreRotation": false,
+      "parryRotation": 90.0,
+      "parryDualRotation": 60.0,
+      "armResistanceMultiplier": 3.0,
+      "parryRevertAngleRange": {
+        "x": -80.0,
+        "y": -180.0
+      },
+      "parryDefaultPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "parryDefaultLeftRotation": {
+        "x": 25.0,
+        "y": -10.0,
+        "z": -65.0
+      },
+      "parryDefaultRightRotation": {
+        "x": 30.0,
+        "y": 5.0,
+        "z": 60.0
+      },
+      "allowDynamicHeight": false,
+      "dodgeBehaviour": "NotParrying",
+      "defenseHasPriority": false,
+      "attackIgnore": false,
+      "attackForceParryIgnoreRotation": false
+    }
+  ],
+  "colliderGroups": [],
+  "damagers": [
+    {
+      "transformName": "DamagerFist",
+      "damagerID": "Punch"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "HandleFist",
+      "interactableId": "ObjectHandleLight",
+      "overrideHandPose": true,
+      "handPoseId": "DefaultClose"
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [],
+  "localizationId": "Fist",
+  "displayName": "Fist",
+  "description": "A dummy item.",
+  "author": "Kingo64",
+  "price": 0.0,
+  "purchasable": false,
+  "tier": 0,
+  "levelRequired": 0,
+  "isStackable": false,
+  "category": "Outer Rim",
+  "iconEffectId": null,
+  "iconAddress": "theouterrim.Null.Icon"
+}

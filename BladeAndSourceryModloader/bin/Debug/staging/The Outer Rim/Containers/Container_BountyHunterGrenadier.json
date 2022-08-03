@@ -1,0 +1,75 @@
+{
+  "$type": "ThunderRoad.ContainerData, ThunderRoad",
+  "id": "BountyHunterGrenadier",
+  "version": 1,
+  "displayName": "",
+  "description": null,
+  "contents": [
+    {
+      "referenceID": "MiscHelmet",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "referenceID": "MiscHandL",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "referenceID": "MiscHandR",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "referenceID": "MiscChest",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "referenceID": "MiscLegs",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "referenceID": "MiscFeet",
+      "reference": "Table",
+      "customDataList": []
+    },
+    {
+      "reference": "Item",
+      "referenceID": "ThermalDetonator",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "BackLeft"
+      },
+      "customDataList": []
+    },
+    {
+      "reference": "Item",
+      "referenceID": "ThermalDetonator",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "BackRight"
+      },
+      "customDataList": []
+    },
+    {
+      "reference": "Item",
+      "referenceID": "ThermalDetonator",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "HipsLeft"
+      },
+      "customDataList": []
+    },
+    {
+      "reference": "Item",
+      "referenceID": "ThermalDetonator",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "HipsRight"
+      },
+      "customDataList": []
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "$type": "ThunderRoad.LootTable, Assembly-CSharp",
+  "id": "MMPTier1",
+  "saveFolder": "Bas",
+  "version": 1,
+  "drops": [
+
+
+    { "reference": 0,
+      "referenceID": "MMPShieldParma",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPPalmAxe",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPGeom",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPEpsilonAxe",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPSeaxT1",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPToolsCleaver",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPIkakalaka",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPSeaxT1",
+      "probabilityWeight": 3.0},
+
+
+
+    { "reference": 0,
+      "referenceID": "MMPGladius",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPMyceneanSword",
+      "probabilityWeight": 3.0},
+
+
+
+    { "reference": 0,
+      "referenceID": "MMPKhopesh",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPMakhaira",
+      "probabilityWeight": 3.0},
+
+
+
+    { "reference": 0,
+      "referenceID": "MMPLongSwordC",
+      "probabilityWeight": 3.0},
+
+
+
+    { "reference": 0,
+      "referenceID": "MMPClubA",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPIberianMace",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPHorsemansPickC",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPStuddedBat",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPFarmingShovel",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPPan",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPToolsPickaxe",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPWarhammer6",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPReinforcedCudgel",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPByzantineMace",
+      "probabilityWeight": 3.0},
+
+
+    { "reference": 0,
+      "referenceID": "MMPMyceneanSpear",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPTridentGold",
+      "probabilityWeight": 3.0},
+
+
+    { "reference": 0,
+      "referenceID": "MMPFarmingScythe",
+      "probabilityWeight": 1.5},
+    { "reference": 0,
+      "referenceID": "MMPFarmingScytheR",
+      "probabilityWeight": 1.5},
+    { "reference": 0,
+      "referenceID": "MMPFarmingFork",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPSickle",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPBlacksmithHammer",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPCutleryKnife",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPCutleryFork",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPAnvil",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPMiseryWhip",
+      "probabilityWeight": 3.0},
+
+
+
+    { "reference": 0,
+      "referenceID": "MMPVikingShield",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPScutum",
+      "probabilityWeight": 3.0},
+    { "reference": 0,
+      "referenceID": "MMPShieldMediumLeft",
+      "probabilityWeight": 1.5},
+    { "reference": 0,
+      "referenceID": "MMPShieldMediumRight",
+      "probabilityWeight": 1.5},
+
+
+
+    { "reference": 0,
+      "referenceID": "MMPHachiwara",
+      "probabilityWeight": 3.0}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$type": "ThunderRoad.LootTable, Assembly-CSharp",
+  "id": "WeaponDagger",
+  "saveFolder": "Bas",
+  "version": 1,
+  "drops": [
+    {
+      "reference": 1,
+      "referenceID": "Weapon1HSmall",
+      "probabilityWeight": 50.0
+    }
+  ]
+}

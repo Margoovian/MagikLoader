@@ -1,0 +1,63 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "MMPBambooKatanaScabbard",
+  "saveFolder": "Bas",
+  "version": 4,
+  "prefabAddress": "mmp.BambooKatanaScabbard",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "allowDecals": false,
+  "type": "Quiver",
+  "slot": "MMPSheath",
+  "mass": 1.0,
+  "drag": 0.0,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": null,
+  "flyFromThrow": false,
+  "flyRotationSpeed": 2.0,
+  "flyThrowAngle": 0.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": true,  "grabAndGripClimb": false,  "playerGrabAndGripChangeLayer": true,
+  "customSnaps": [],
+  "modules": [],
+  "colliderGroups": [],
+  "damagers": [
+    {
+      "transformName": "Blunt",
+      "damagerID": "MMPBluntMordhau"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "Handle",
+      "interactableId": "ObjectHandleLight",
+      "overrideHandPose": false,
+      "handPoseId": "HandleQuiver"
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [],
+  "localizationId": "MMPBambooKatanaScabbard",
+  "displayName": "Katana Saya",
+  "description": "A scabbard for transporting and protecting a katana.",
+  "author": "Sushin",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 0,
+  "levelRequired": 0,
+  "isStackable": false,
+  "categoryPath": [
+    "Japanese"
+  ],
+  "iconEffectId": null,
+  "iconAddress": "mmp.BambooKatana.Icon"
+}

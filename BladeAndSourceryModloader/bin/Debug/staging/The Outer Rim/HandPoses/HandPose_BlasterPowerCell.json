@@ -1,0 +1,21 @@
+{
+  "$type": "ThunderRoad.HandPoseData, ThunderRoad",
+  "id": "HandleBlasterPowerCell",
+  "version": 2,
+  "allowThumbTracking": true,
+  "allowIndexTracking": false,
+  "allowMiddleTracking": true,
+  "allowRingTracking": true,
+  "allowLittleTracking": true,
+  "indexNoTrigger": false,
+  "poses": [
+    {
+      "creatureName": "HumanMale",
+      "handPoseAddress": "Bas.HandPose.HumanMale.GripLarge"
+    },
+    {
+      "creatureName": "HumanFemale",
+      "handPoseAddress": "Bas.HandPose.HumanFemale.GripLarge"
+    }
+  ]
+}

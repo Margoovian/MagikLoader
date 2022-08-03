@@ -1,0 +1,300 @@
+{
+  "$type": "ThunderRoad.EffectData, Assembly-CSharp",
+  "id": "ImbueIce",
+  "saveFolder": "Bas",
+  "version": 0,
+  "groupId": "Ice",
+  "volumeDb": 0.0,
+  "modules": [
+    {
+      "$type": "ThunderRoad.EffectModuleAudio, Assembly-CSharp",
+      "effectLink": "Intensity",
+      "audioContainerAddress": "IceSpellImbueIceStart",
+      "loopFadeDelay": 0.0,
+      "audioMixer": "Effect",
+      "volumeDb": 0.0,
+      "volumeCurve": {
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 0.6,
+            "inTangent": -0.6,
+            "outTangent": -0.6,
+            "inWeight": 0.0,
+            "outWeight": 0.333333343,
+            "weightedMode": "None",
+            "tangentMode": 34
+          },
+          {
+            "time": 1.0,
+            "value": 0.0,
+            "inTangent": -0.6,
+            "outTangent": -0.6,
+            "inWeight": 0.333333343,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 34
+          }
+        ],
+        "length": 2,
+        "preWrapMode": "ClampForever",
+        "postWrapMode": "ClampForever"
+      },
+      "spatialBlend": 1.0,
+      "randomPlay": false,
+      "playDelay": 0.0,
+      "randomMinTime": 2.0,
+      "randomMaxTime": 5.0,
+      "randomPitch": false,
+      "pitchEffectLink": "Intensity",
+      "pitchCurve": {
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 1.0,
+            "inTangent": 0.0,
+            "outTangent": 0.0,
+            "inWeight": 0.0,
+            "outWeight": 0.333333343,
+            "weightedMode": "None",
+            "tangentMode": 34
+          },
+          {
+            "time": 1.0,
+            "value": 1.0,
+            "inTangent": 0.0,
+            "outTangent": 0.0,
+            "inWeight": 0.333333343,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 34
+          }
+        ],
+        "length": 2,
+        "preWrapMode": "ClampForever",
+        "postWrapMode": "ClampForever"
+      },
+      "useLowPassFilter": false,
+      "lowPassCutoffFrequencyCurve": null,
+      "lowPassResonanceQCurve": null,
+      "useHighPassFilter": false,
+      "highPassCutoffFrequencyCurve": null,
+      "highPassResonanceQCurve": null,
+      "useReverbFilter": false,
+      "reverbDryLevelCurve": null,
+      "minDistance": 1.0,
+      "maxDistance": 500.0,
+      "step": "Start",
+      "stepCustomId": null,
+      "plateformFilter": "Windows, Android",
+      "isGore": false,
+      "damagerStateFilter": "Inactive, Active",
+      "damageTypeFilter": "Energy, Blunt, Slash, Pierce",
+      "penetrationFilter": "None, Pressure, Hit",
+      "imbuesFilterLogic": "AnyExcept",
+      "imbuesFilter": [],
+      "colliderGroupFilterLogic": "AnyExcept",
+      "colliderGroupsFilter": [],
+      "damagersFilterLogic": "AnyExcept",
+      "damagersFilter": []
+    },
+    {
+      "$type": "ThunderRoad.EffectModuleShader, ThunderRoad",
+      "linkBaseColor": "None",
+      "linkEmissionColor": "Main",
+      "lifeTime": 5.0,
+      "refreshSpeed": 0.1,
+      "useSecondaryRenderer": true,
+      "mainColorStart": {
+        "a": 1.0,
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "mainColorEnd": {
+        "a": 1.0,
+        "r": 0.74,
+        "g": 2.39,
+        "b": 3.0
+      },
+      "secondaryColorStart": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "secondaryColorEnd": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "mainNoHdrColorStart": {
+        "a": 1.0,
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "mainNoHdrColorEnd": {
+        "a": 1.0,
+        "r": 0.74,
+        "g": 2.39,
+        "b": 3.0
+      },
+      "secondaryNoHdrColorStart": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "secondaryNoHdrColorEnd": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "step": "Loop",
+      "stepCustomId": null,
+      "plateformFilter": "Windows, Android",
+      "isGore": false,
+      "damagerStateFilter": "Inactive, Active",
+      "damageTypeFilter": "Energy, Blunt, Slash, Pierce",
+      "penetrationFilter": "None, Pressure, Hit",
+      "imbuesFilterLogic": "AnyExcept",
+      "imbuesFilter": [],
+      "colliderGroupFilterLogic": "AnyExcept",
+      "colliderGroupsFilter": [],
+      "damagersFilterLogic": "AnyExcept",
+      "damagersFilter": []
+    },
+    {
+      "$type": "ThunderRoad.EffectModuleAudio, Assembly-CSharp",
+      "effectLink": "Intensity",
+      "audioContainerAddress": "IceSpellImbueIceLoop",
+      "loopFadeDelay": 0.0,
+      "audioMixer": "Effect",
+      "volumeDb": 0.0,
+      "volumeCurve": {
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inTangent": 0.4,
+            "outTangent": 0.4,
+            "inWeight": 0.0,
+            "outWeight": 0.333333343,
+            "weightedMode": "None",
+            "tangentMode": 34
+          },
+          {
+            "time": 1.0,
+            "value": 0.4,
+            "inTangent": 0.4,
+            "outTangent": 0.4,
+            "inWeight": 0.333333343,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 34
+          }
+        ],
+        "length": 2,
+        "preWrapMode": "ClampForever",
+        "postWrapMode": "ClampForever"
+      },
+      "spatialBlend": 1.0,
+      "randomPlay": false,
+      "randomMinTime": 2.0,
+      "randomMaxTime": 5.0,
+      "randomPitch": false,
+      "pitchCurve": {
+        "keys": [
+          {
+            "time": 0.0,
+            "value": 1.0,
+            "inTangent": 0.0,
+            "outTangent": 0.0,
+            "inWeight": 0.0,
+            "outWeight": 0.333333343,
+            "weightedMode": "None",
+            "tangentMode": 34
+          },
+          {
+            "time": 1.0,
+            "value": 1.0,
+            "inTangent": 0.0,
+            "outTangent": 0.0,
+            "inWeight": 0.333333343,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 34
+          }
+        ],
+        "length": 2,
+        "preWrapMode": "ClampForever",
+        "postWrapMode": "ClampForever"
+      },
+      "useLowPassFilter": false,
+      "lowPassCutoffFrequencyCurve": null,
+      "lowPassResonanceQCurve": null,
+      "useHighPassFilter": false,
+      "highPassCutoffFrequencyCurve": null,
+      "highPassResonanceQCurve": null,
+      "useReverbFilter": false,
+      "reverbDryLevelCurve": null,
+      "minDistance": 1.0,
+      "maxDistance": 500.0,
+      "step": "Start",
+      "stepCustomId": null,
+      "plateformFilter": "Windows, Android",
+      "isGore": false,
+      "damagerStateFilter": "Inactive, Active",
+      "damageTypeFilter": "Energy, Blunt, Slash, Pierce",
+      "penetrationFilter": "None, Pressure, Hit",
+      "imbuesFilterLogic": "AnyExcept",
+      "imbuesFilter": [],
+      "colliderGroupFilterLogic": "AnyExcept",
+      "colliderGroupsFilter": [],
+      "damagersFilterLogic": "AnyExcept",
+      "damagersFilter": []
+    },
+    {
+      "$type": "ThunderRoad.EffectModuleParticle, Assembly-CSharp",
+      "effectParticleAddress": "IceSpellIceImbue",
+      "intensityCurve": null,
+      "renderInLateUpdate": false,
+      "goreParticle": false,
+      "mainGradient": null,
+      "secondaryGradient": null,
+      "mainGradientNoHdr": null,
+      "secondaryGradientNoHdr": null,
+      "localScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "useScaleCurve": false,
+      "scaleCurve": null,
+      "collisionEffectId": null,
+      "collisionLayerMask": -2097353,
+      "collisionMaxGroundAngle": 45.0,
+      "collisionEmitRate": 0.2,
+      "collisionMinIntensity": 0.0,
+      "collisionMaxIntensity": 1.0,
+      "collisionUseMainGradient": false,
+      "collisionUseSecondaryGradient": false,
+      "step": "Loop",
+      "stepCustomId": null,
+      "plateformFilter": "Windows, Android",
+      "isGore": false,
+      "damagerStateFilter": "Inactive, Active",
+      "damageTypeFilter": "Energy, Blunt, Slash, Pierce",
+      "penetrationFilter": "None, Pressure, Hit",
+      "imbuesFilterLogic": "AnyExcept",
+      "imbuesFilter": [],
+      "colliderGroupFilterLogic": "AnyExcept",
+      "colliderGroupsFilter": [],
+      "damagersFilterLogic": "AnyExcept",
+      "damagersFilter": []
+    }
+  ]
+}

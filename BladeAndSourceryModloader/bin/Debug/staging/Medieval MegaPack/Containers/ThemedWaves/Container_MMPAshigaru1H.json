@@ -1,0 +1,60 @@
+{
+  "$type": "ThunderRoad.ContainerData, Assembly-CSharp",
+  "id": "MMPAshigaru1H",
+  "saveFolder": "Bas",
+  "version": 1,
+  "displayName": "",
+  "description": null,
+  "contents": [
+    {
+      "referenceID": "LeatherHelmet",
+      "reference": "Table",
+      "customValues": []
+    },
+    {
+      "referenceID": "LeatherHandL",
+      "reference": "Table",
+      "customValues": []
+    },
+    {
+      "referenceID": "LeatherHandR",
+      "reference": "Table",
+      "customValues": []
+    },
+    {
+      "referenceID": "ApparelBanditJacket",
+      "reference": "Item",
+      "customValues": []
+    },
+    {
+      "referenceID": "ApparelBanditPants",
+      "reference": "Item",
+      "customValues": []
+    },
+    {
+      "referenceID": "ApparelBanditBoots",
+      "reference": "Item",
+      "customValues": []
+    },
+    {
+      "referenceID": "MMPAshigaru_Weapon1H",
+      "reference": "Table",
+      "customValues": [
+        {
+          "id": "Holder",
+          "value": "HipsLeft"
+        }
+      ]
+    },
+    {
+      "referenceID": "Hairs",
+      "reference": "Table",
+      "customValues": []
+    },
+    {
+      "referenceID": "Beards",
+      "reference": "Table",
+      "customValues": []
+    }
+  ]
+}

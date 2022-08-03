@@ -1,0 +1,21 @@
+{
+  "$type": "ThunderRoad.HandPoseData, ThunderRoad",
+  "id": "HandleScatterGun",
+  "version": 2,
+  "allowThumbTracking": true,
+  "allowIndexTracking": true,
+  "allowMiddleTracking": true,
+  "allowRingTracking": true,
+  "allowLittleTracking": true,
+  "indexNoTrigger": false,
+  "poses": [
+    {
+      "creatureName": "HumanMale",
+      "handPoseAddress": "Bas.HandPose.HumanMale.GripDefault"
+    },
+    {
+      "creatureName": "HumanFemale",
+      "handPoseAddress": "Bas.HandPose.HumanFemale.GripDefault"
+    }
+  ]
+}

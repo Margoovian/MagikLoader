@@ -1,0 +1,93 @@
+{
+  "$type": "ThunderRoad.LevelData, ThunderRoad",
+  "id": "EbonHawk",
+  "version": 3,
+  "name": "Ebon Hawk",
+  "description": "A famous light freighter from the time Jedi Civil War era used to discover and ultimately destroy the Star Forge",
+  "sceneAddress": "theouterrim_maps_ebon_hawk.EbonHawk",
+  "showInLevelSelection": true,
+  "savePlayerInventoryOnUnload": true,
+  "dungeonFlowAddresses": [],
+  "mapId": "Default",
+  "mapLocation": "63",
+  "mapIconAddress": "theouterrim.tor-logo-map",
+  "mapIconHoverAddress": "theouterrim.tor-logo-map-hover",
+  "mapNameDisplay": "The Outer Rim",
+  "showOnMap": true,
+  "hideOnAndroid": false,
+  "mapObjectAddress": "Bas.Icon.MapDefaultObject",
+  "mapTextureAddress": "Bas.Icon.MapDefaultTexture",
+  "iconAddress": "theouterrim.EbonHawk.Preview",
+  "mapSketchAddress": "theouterrim.EbonHawk.Sketch",
+  "modes": [
+    {
+      "name": "Sandbox",
+      "displayName": "Sandbox",
+      "description": "SandboxDescription",
+      "allowGameModes": [
+        "Sandbox"
+      ],
+      "mapOrder": 0,
+      "difficultyMultipliers": [
+        {
+          "playerHealthMultiplier": 1.0,
+          "playerDamageMultiplier": 1.0,
+          "creatureDamageMultiplier": 1.0
+        },
+        {
+          "playerHealthMultiplier": 1.0,
+          "playerDamageMultiplier": 1.0,
+          "creatureDamageMultiplier": 1.0
+        },
+        {
+          "playerHealthMultiplier": 0.75,
+          "playerDamageMultiplier": 0.75,
+          "creatureDamageMultiplier": 1.5
+        },
+        {
+          "playerHealthMultiplier": 0.5,
+          "playerDamageMultiplier": 0.5,
+          "creatureDamageMultiplier": 2.0
+        },
+        {
+          "playerHealthMultiplier": 1.0,
+          "playerDamageMultiplier": 0.5,
+          "creatureDamageMultiplier": 3.0
+        }
+      ],
+      "modules": [
+        {
+          "$type": "ThunderRoad.LevelModuleCleaner, ThunderRoad",
+          "cleanerRate": 5.0
+        },
+        {
+          "$type": "ThunderRoad.LevelModuleDeath, ThunderRoad",
+          "behaviour": "ShowScores",
+          "delayBeforeLoad": 10.0,
+          "disablePlayerLocomotion": true
+        },
+        {
+          "$type": "ThunderRoad.LevelModuleXP, ThunderRoad"
+        },
+        {
+          "$type": "TOR.LevelModuleWaveMusic, TheOuterRim",
+          "musicWavePath": "theouterrim_music.BattleMusic"
+        }
+      ],
+      "availableOptions": [
+        {
+          "name": "Difficulty",
+          "displayName": "Difficulty",
+          "description": "DifficultyDescription",
+          "type": "Stars",
+          "minValue": 1,
+          "maxValue": 3,
+          "defaultValue": 2
+        }
+      ]
+    }
+  ],
+  "modePickCountPerRank": 999,
+  "customCameras": [],
+  "improvisedThrowableID": null
+}

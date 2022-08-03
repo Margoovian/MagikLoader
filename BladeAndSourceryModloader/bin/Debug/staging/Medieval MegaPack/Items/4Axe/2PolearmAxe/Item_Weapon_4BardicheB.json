@@ -1,0 +1,130 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "MMPBardicheB",
+  "saveFolder": "Bas",
+  "version": 4,
+  "prefabAddress": "mmp.BardicheB",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "allowDecals": false,
+  "type": "Weapon",
+  "slot": "Large",
+  "mass": 5.0,
+  "drag": 1.0,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": "Bas.AudioGroup.Snap.Heavy",
+  "flyFromThrow": false,
+  "flyRotationSpeed": 2.0,
+  "flyThrowAngle": 120.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.5,
+  "grippable": true,  "grabAndGripClimb": false,  "playerGrabAndGripChangeLayer": true,
+  "customSnaps": [],
+  "modules": [
+    {
+      "$type": "ThunderRoad.ItemModuleAI, Assembly-CSharp",
+      "weaponClass": "Melee",
+      "weaponHandling": "TwoHanded",
+      "parryIgnoreRotation": false,
+      "parryRotation": 90.0,
+      "parryDualRotation": 60.0,
+      "armResistanceMultiplier": 3.0,
+      "parryRevertAngleRange": {
+        "x": -80.0,
+        "y": -180.0
+      },
+      "parryDefaultPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "parryDefaultLeftRotation": {
+        "x": 25.0,
+        "y": -10.0,
+        "z": -65.0
+      },
+      "parryDefaultRightRotation": {
+        "x": 30.0,
+        "y": 5.0,
+        "z": 60.0
+      },
+      "allowDynamicHeight": false,
+      "dodgeBehaviour": "NotParrying",
+      "defenseHasPriority": false,
+      "attackIgnore": false,
+      "attackForceParryIgnoreRotation": false
+    }
+  ],
+  "colliderGroups": [
+    {
+      "transformName": "Blades",
+      "colliderGroupId": "BladeAxe2h"
+    },
+    {
+      "transformName": "Handle",
+      "colliderGroupId": "BladeMace"
+    }
+  ],
+  "damagers": [
+    {
+      "transformName": "Pierce",
+      "damagerID": "MMPPierceSword"
+    },
+    {
+      "transformName": "Slash",
+      "damagerID": "MMPSlashAxeDrawCutBig"
+    },
+    {
+      "transformName": "Blunt",
+      "damagerID": "MMPBluntMordhau"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "Handle",
+      "interactableId": "ObjectHandleHeavy",
+      "overrideHandPose": true,
+      "handPoseId": "HandleLarge"
+    },
+    {
+      "transformName": "Handle2",
+      "interactableId": "ObjectHandleHeavy",
+      "overrideHandPose": true,
+      "handPoseId": "HandleLarge"
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [
+    {
+      "transformName": "Whoosh",
+      "effectId": "WhooshAxeBig",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 2.0,
+      "maxVelocity": 8.0,
+      "dampening": 0.2
+    }
+  ],
+  "localizationId": "MMPBardicheB",
+  "displayName": "Dragoon Bardiche",
+  "description": "A descendant of the Dane Axe that relies on its heavy blade to deal massive slashes.",
+  "author": "Sushin",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 3,
+  "levelRequired": 0,
+  "isStackable": false,
+  "categoryPath": [
+    "Axe"
+  ],
+  "iconEffectId": null,
+  "iconAddress": "mmp.BardicheB.Icon"
+}

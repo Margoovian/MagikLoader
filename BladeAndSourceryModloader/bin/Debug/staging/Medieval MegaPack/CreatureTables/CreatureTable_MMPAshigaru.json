@@ -1,0 +1,65 @@
+{
+  "$type": "ThunderRoad.CreatureTable, Assembly-CSharp",
+  "id": "MMPAshigaru",
+  "saveFolder": "Bas",
+  "version": 1,
+  "description": null,
+  "linkedToGenderRatio": false,
+  "minMaxDifficulty": {
+    "x": 0,
+    "y": 0
+  },
+  "drops": [
+    {
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "MMPAshigaru1H",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "MMPAshigaruArcher",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Humans",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "MMPSamurai",
+      "overrideBrain": false,
+      "overrideBrainID": "",
+      "probabilityWeights": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

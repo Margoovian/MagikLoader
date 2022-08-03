@@ -1,0 +1,181 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "Lightsaber_GrandInquisitor_Closed",
+  "version": 4,
+  "prefabAddress": "theouterrim_lightsabers.Lightsaber_GrandInquisitor_Closed",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "type": "Weapon",
+  "slot": "Medium",
+  "overrideMassAndDrag": true,
+  "mass": 2.0,
+  "drag": 1.0,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": null,
+  "flyFromThrow": false,
+  "flyRotationSpeed": 30.0,
+  "flyThrowAngle": 0.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": false,
+  "customSnaps": [],
+  "modules": [
+    {
+      "$type": "TOR.ItemModuleLightsaber, TheOuterRim",
+      "canThrow": true,
+      "ignitionDuration": 0.1,
+      "primaryGripPrimaryAction": "",
+      "primaryGripPrimaryActionHold": "",
+      "primaryGripSecondaryAction": "toggleIgnition",
+      "primaryGripSecondaryActionHold": "toggleSingle",
+      "lightsaberBlades": [
+        {
+          "$type": "TOR.LightsaberBlade, TheOuterRim",
+          "bladeLength": 0.9,
+          "kyberCrystal": "KyberCrystalRed",
+          "collisionRef": "CollisionBlade",
+          "crystalEjectRef": "CrystalEject",
+          "saberBodyRef": "SaberBody",
+          "saberTipGlowRef": "SaberTipGlow",
+          "saberGlowRef": "SaberGlow",
+          "startSoundsRef": "StartSounds",
+          "stopSoundsRef": "StopSounds",
+          "whooshRef": "WhooshBlade"
+        },
+        {
+          "$type": "TOR.LightsaberBlade, TheOuterRim",
+          "bladeLength": 0.9,
+          "kyberCrystal": "KyberCrystalRed",
+          "collisionRef": "CollisionBlade2",
+          "crystalEjectRef": "CrystalEject2",
+          "saberBodyRef": "SaberBody2",
+          "saberTipGlowRef": "SaberTipGlow2",
+          "saberGlowRef": "SaberGlow2",
+          "startSoundsRef": "StartSounds2",
+          "stopSoundsRef": "StopSounds2",
+          "whooshRef": "WhooshBlade2"
+        }
+      ]
+    },
+    {
+      "$type": "ThunderRoad.ItemModuleAI, ThunderRoad",
+      "weaponClass": "Melee",
+      "weaponHandling": "OneHanded",
+      "parryIgnoreRotation": false,
+      "parryRotation": 90.0,
+      "parryDualRotation": 60.0,
+      "armResistanceMultiplier": 3.0,
+      "parryRevertAngleRange": {
+        "x": -80.0,
+        "y": -180.0
+      },
+      "parryDefaultPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "parryDefaultLeftRotation": {
+        "x": 25.0,
+        "y": -10.0,
+        "z": -65.0
+      },
+      "parryDefaultRightRotation": {
+        "x": 45.0,
+        "y": 0.0,
+        "z": 15.0
+      },
+      "allowDynamicHeight": false,
+      "dodgeBehaviour": "NotParrying",
+      "defenseHasPriority": false,
+      "attackIgnore": false,
+      "attackForceParryIgnoreRotation": false
+    }
+  ],
+  "colliderGroups": [
+    {
+      "transformName": "CollisionHilt",
+      "colliderGroupId": "BladeMace"
+    }
+  ],
+  "damagers": [
+    {
+      "transformName": "DamagerBladeStab",
+      "damagerID": "LightsaberPierce"
+    },
+    {
+      "transformName": "DamagerBlade",
+      "damagerID": "LightsaberSlash"
+    },
+    {
+      "transformName": "DamagerBladeStab2",
+      "damagerID": "LightsaberPierce"
+    },
+    {
+      "transformName": "DamagerBlade2",
+      "damagerID": "LightsaberSlash"
+    },
+    {
+      "transformName": "DamagerHilt",
+      "damagerID": "Handle2H"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "HandleHilt",
+      "interactableId": "ObjectHandleLightsaber",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    },
+    {
+      "transformName": "HandleHilt2",
+      "interactableId": "ObjectHandleLightsaber",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    },
+    {
+      "transformName": "HandleHilt3",
+      "interactableId": "ObjectHandleLightsaber",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [
+    {
+      "transformName": "WhooshBlade",
+      "effectId": "WhooshLightsaberRed",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 1.0,
+      "maxVelocity": 20.0
+    },
+    {
+      "transformName": "WhooshBlade2",
+      "effectId": "WhooshLightsaberRed",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 1.0,
+      "maxVelocity": 20.0
+    }
+  ],
+  "localizationId": "Lightsaber_GrandInquisitor_Closed",
+  "displayName": "Grand Inquisitor's Lightsaber (Closed)",
+  "description": "Grand Inquisitor's double-bladed spinning lightsaber. Closed up and cannot be used to fly.",
+  "author": "Kingo64",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 0,
+  "levelRequired": 0,
+  "isStackable": false,
+  "category": "Lightsabers",
+  "iconEffectId": null,
+  "iconAddress": "theouterrim_lightsabers.Lightsaber_GrandInquisitor_Closed.Icon"
+}

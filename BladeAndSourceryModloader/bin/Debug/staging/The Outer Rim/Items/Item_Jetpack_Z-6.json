@@ -1,0 +1,137 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "Jetpack_Z-6",
+  "version": 4,
+  "localizationId": "Jetpack_Z-6",
+  "displayName": "Z-6 Jetpack",
+  "description": "A model of jetpack produced by Mitrinomon Transports and commonly used by the Mandalorians.",
+  "author": "Kingo64",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 0,
+  "levelRequired": 0,
+  "isStackable": false,
+  "category": "Outer Rim",
+  "iconEffectId": null,
+  "iconAddress": "theouterrim.Jetpack_Z-6.Icon",
+  "prefabAddress": "theouterrim.Jetpack_Z-6",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "type": "Misc",
+  "slot": "TOR_Jetpack",
+  "snapAudioContainerAddress": null,
+  "overrideMassAndDrag": true,
+  "mass": 15.0,
+  "drag": 0.0,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "flyFromThrow": false,
+  "flyRotationSpeed": 2.0,
+  "flyThrowAngle": 0.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": true,
+  "customSnaps": [
+    {
+      "holderName": "BackLeft",
+      "localPosition": {
+        "x": -0.14,
+        "y": 0.0,
+        "z": 0.1
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -14.0
+      }
+    },
+    {
+      "holderName": "BackRight",
+      "localPosition": {
+        "x": 0.14,
+        "y": 0.0,
+        "z": 0.1
+      },
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 14.0
+      }
+    }
+  ],
+  "modules": [
+    {
+      "$type": "TOR.ItemModuleJetpack, TheOuterRim",
+      "airSpeed": 0.32,
+      "drag": 0.7,
+      "startDeadzone": 0.9,
+      "thrust": 40.0,
+      
+      "idleSoundLeft": "theouterrim.Jetpack_Idle_Left",
+      "idleSoundRight": "theouterrim.Jetpack_Idle_Right",
+      "startSound": "theouterrim.Jetpack_Start",
+      "stopSound": "theouterrim.Jetpack_Stop"
+    },
+    {
+      "$type": "TOR.ItemModuleStorage, TheOuterRim",
+      "holders": ["HolderJetpack"]
+    }
+  ],
+  "colliderGroups": [],
+  "damagers": [
+    {
+      "transformName": "DamagerBlunt",
+      "damagerID": "Mace2H"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "HandleLeft",
+      "interactableId": "ObjectHandleHeavy",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    },
+    {
+      "transformName": "HandleRight",
+      "interactableId": "ObjectHandleHeavy",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    },
+    {
+      "transformName": "HandleTopLeft",
+      "interactableId": "ObjectHandleHeavy",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    },
+    {
+      "transformName": "HandleTopRight",
+      "interactableId": "ObjectHandleHeavy",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    },
+    {
+      "transformName": "HolderJetpack",
+      "interactableId": "HolderJetpack",
+      "overrideHandPose": false,
+      "handPoseId": null
+    },
+  ],
+  "effectHinges": [],
+  "whooshs": [
+    {
+      "transformName": "Whoosh",
+      "effectId": "WhooshPropHeavy",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 8.0,
+      "maxVelocity": 20.0
+    }
+  ]
+}

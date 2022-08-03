@@ -1,0 +1,23 @@
+﻿{
+  "$type": "ThunderRoad.ContainerData, ThunderRoad",
+  "id": "DroidHandToHand",
+  "version": 1,
+  "displayName": "",
+  "prefabName": "",
+  "contents": [
+    {
+      "reference": "Item",
+      "referenceID": "ApparelGladiatorBoots",
+      "customDataList": []
+    },
+    {
+      "reference": "Item",
+      "referenceID": "TOR_Fist",
+      "state": {
+        "$type": "ThunderRoad.ContentStateHolder, ThunderRoad",
+        "holderName": "HipsRight"
+      },
+      "customValues": []
+    }
+  ]
+}

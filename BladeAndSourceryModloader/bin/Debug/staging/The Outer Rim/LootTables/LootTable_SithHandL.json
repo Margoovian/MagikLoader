@@ -1,0 +1,17 @@
+{
+  "$type": "ThunderRoad.LootTable, ThunderRoad",
+  "id": "SithHandL",
+  "version": 1,
+  "drops": [
+    {
+      "reference": "Table",
+      "referenceID": "MageHandL",
+      "probabilityWeight": 3.0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "MiscHandL",
+      "probabilityWeight": 5.0
+    }
+  ]
+}

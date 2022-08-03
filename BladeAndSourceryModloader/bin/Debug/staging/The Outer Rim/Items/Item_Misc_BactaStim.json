@@ -1,0 +1,91 @@
+﻿{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "BactaStim",
+  "version": 4,
+  "prefabAddress": "theouterrim.BactaStim",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "type": "Weapon",
+  "canBeStoredInPlayerInventory": true,
+  "slot": "Medium",
+  "overrideMassAndDrag": true,
+  "mass": 0.1,
+  "drag": 1.0,
+  "angularDrag": 0.05,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "None",
+  "snapAudioContainerAddress": null,
+  "flyFromThrow": true,
+  "flyRotationSpeed": 3.0,
+  "flyThrowAngle": 145.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.0,
+  "dodgeBehaviour": "NotParrying",
+  "grippable": true,
+  "customSnaps": [],
+  "modules": [
+    {
+      "$type": "TOR.ItemModuleBactaStim, TheOuterRim",
+      "chargeRate": 1.66,
+      "healAmount": 10.0,
+      "healDuration": 7.5
+    }
+  ],
+  "colliderGroups": [
+    {
+      "transformName": "CollisionTip",
+      "colliderGroupId": "BladeDagger"
+    },
+    {
+      "transformName": "CollisionGrip",
+      "colliderGroupId": "PropMetal"
+    }  
+  ],
+  "damagers": [
+    {
+      "transformName": "DamagerGrip",
+      "damagerID": "Handle1H"
+    },
+    {
+      "transformName": "DamagerTip",
+      "damagerID": "BactaStim"
+    }
+  ],
+  "Interactables": [
+    {
+      "transformName": "HandleGrip",
+      "interactableId": "ObjectHandleLight",
+      "overrideHandPose": false,
+      "handPoseId": ""
+    }
+  ],
+  "effectHinges": [],
+  "whooshs": [
+    {
+      "transformName": "Whoosh",
+      "effectId": "WhooshSwordShort",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 5.0,
+      "maxVelocity": 12.0
+    }
+  ],
+  "localizationId": "BactaStim",
+  "displayName": "Bacta Stim",
+  "description": "Bacta stims, also known as stim packs, contain medicinal bacta to treat physical injuries. This unit can re-culture bacta to recharge.",
+  "author": "Kingo64",
+  "price": 0.0,
+  "purchasable": true,
+  "tier": 0,
+  "levelRequired": 0,
+  "isStackable": false,
+  "category": "Outer Rim",
+  "iconEffectId": null,
+  "iconAddress": "theouterrim.BactaStim.Icon"
+}
