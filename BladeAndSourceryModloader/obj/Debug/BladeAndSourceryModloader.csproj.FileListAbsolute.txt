@@ -49,4 +49,9 @@ C:\Users\Margoovian\Documents\GitHub\MagikLoader\BladeAndSourceryModloader\obj\D
 C:\Users\Margoovian\Documents\GitHub\MagikLoader\BladeAndSourceryModloader\obj\Debug\BladeAndSourceryModloader.pdb
 C:\Users\Margoovian\Documents\GitHub\MagikLoader\BladeAndSourceryModloader\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Margoovian\Documents\GitHub\MagikLoader\BladeAndSourceryModloader\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Margoovian\Documents\GitHub\MagikLoader\BladeAndSourceryModloader\obj\Debug\BladeAndSourceryModloader.csproj.AssemblyReference.cache
+C:\Users\Margoovian\Documents\GitHub\MagikLoader\BladeAndSourceryModloader\bin\Debug\SymbolicLinkSupport.dll
+C:\Users\Margoovian\Documents\GitHub\MagikLoader\BladeAndSourceryModloader\bin\Debug\SymbolicLinkSupport.xml
+C:\Users\Margoovian\Documents\GitHub\MagikLoader\BladeAndSourceryModloader\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\Margoovian\Documents\GitHub\MagikLoader\BladeAndSourceryModloader\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Margoovian\Documents\GitHub\MagikLoader\BladeAndSourceryModloader\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\Margoovian\Documents\GitHub\MagikLoader\BladeAndSourceryModloader\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml

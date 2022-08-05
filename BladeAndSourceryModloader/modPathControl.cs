@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
+using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace BladeAndSourceryModloader
@@ -36,6 +38,17 @@ namespace BladeAndSourceryModloader
         private void path_Leave(object sender, EventArgs e)
         {
             SettingsPage.save();
+        }
+
+        private void browse_Click(object sender, EventArgs e)
+        {
+            CommonOpenFileDialog dialog = new CommonOpenFileDialog();
+            dialog.InitialDirectory = Path.GetFullPath("./");
+            dialog.IsFolderPicker = true;
+            if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
+            {
+                path.Text = dialog.FileName;
+            }
         }
     }
 }

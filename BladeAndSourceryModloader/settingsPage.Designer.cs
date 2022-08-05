@@ -29,6 +29,7 @@ namespace BladeAndSourceryModloader
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(settingsPage));
             this.modPaths = new System.Windows.Forms.FlowLayoutPanel();
             this.gamePath = new System.Windows.Forms.TextBox();
             this.pathLink = new System.Windows.Forms.LinkLabel();
@@ -111,6 +112,7 @@ namespace BladeAndSourceryModloader
             this.button1.TabIndex = 5;
             this.button1.Text = "...";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // saveButton
             // 
@@ -138,6 +140,7 @@ namespace BladeAndSourceryModloader
             this.Controls.Add(this.pathLink);
             this.Controls.Add(this.gamePath);
             this.Controls.Add(this.modPaths);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(450, 700);

@@ -14,5 +14,6 @@ namespace BladeAndSourceryModloader
         public string Author { get; set; }
         public string ModVersion { get; set; }
         public string GameVersion { get; set; }
+        public string FilePath { get; set; }
     }
 }

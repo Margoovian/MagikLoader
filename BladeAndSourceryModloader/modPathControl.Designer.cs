@@ -77,6 +77,7 @@ namespace BladeAndSourceryModloader
             this.browse.TabIndex = 7;
             this.browse.Text = "...";
             this.browse.UseVisualStyleBackColor = true;
+            this.browse.Click += new System.EventHandler(this.browse_Click);
             // 
             // modPathControl
             // 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
+using System;
 using System.Drawing;
 using System.IO;
 using System.Text.RegularExpressions;
@@ -77,8 +78,10 @@ namespace BladeAndSourceryModloader
             Properties.Settings.Default.modFolderPaths = finalmodpaths;
             Properties.Settings.Default.Save();
 
-            if (Directory.Exists(gamePath.Text)) { super.build.Enabled = true; }
-            else { super.build.Enabled = false; }
+            super.build.Enabled = false;
+            if (Directory.Exists(gamePath.Text)) { 
+                if(File.Exists($"{gamePath.Text}/BladeAndSorcery.exe")) { super.build.Enabled = true; }
+            }
         }
 
         private void gamePath_Leave(object sender, EventArgs e)
@@ -89,12 +92,24 @@ namespace BladeAndSourceryModloader
         private void saveButton_Click(object sender, EventArgs e)
         {
             this.save();
+            this.Close();
         }
 
         private void gamePath_TextChanged(object sender, EventArgs e)
         {
             if (Directory.Exists(gamePath.Text)) { super.build.Enabled = true; }
             else { super.build.Enabled = false; }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CommonOpenFileDialog dialog = new CommonOpenFileDialog();
+            dialog.InitialDirectory = Path.GetFullPath("./");
+            dialog.IsFolderPicker = true;
+            if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
+            {
+                gamePath.Text = dialog.FileName;
+            }
         }
     }
 }

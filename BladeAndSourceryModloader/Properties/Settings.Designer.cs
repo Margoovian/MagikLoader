@@ -46,5 +46,17 @@ namespace BladeAndSourceryModloader.Properties {
                 this["modFolderPaths"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string activeMods {
+            get {
+                return ((string)(this["activeMods"]));
+            }
+            set {
+                this["activeMods"] = value;
+            }
+        }
     }
 }
